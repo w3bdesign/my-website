@@ -7,7 +7,7 @@ const VerticalNav2 = () => {
       <ul className="menu2">
         <li>
           <a href="#">
-            <i className="fab fa-facebook" aria-hidden="true"></i>
+            <i className="fab fa-facebook" aria-hidden="true"><span>Home</span></i>
           </a>
         </li>
         <li>

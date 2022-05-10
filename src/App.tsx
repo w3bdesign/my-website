@@ -8,12 +8,14 @@ import TechStack from './components/TechStack/TechStack';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 import VerticalNav2 from './components/VerticalNav2/VerticalNav2';
+import Nav3 from './components/Nav3/Nav3';
 
 function App() {
   return (
     <div className="App">
       <VerticalNav />
       <VerticalNav2 />
+      <Nav3 />
       <Home />
       <About />
       <TechStack />
