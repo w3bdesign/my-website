@@ -1,34 +1,42 @@
 import React from "react";
-import './VerticalNav.css'
+import "./VerticalNav.scss";
 
 const VerticalNav = () => {
   return (
-    <div className="wrapper">
-      <ul className="menu">
-        <li className="list-item">
-          <a className="home fa fa-home fa-fw" href="#">
-            <span>Home</span>
-          </a>
-        </li>
-        <li className="list-item">
-          <a className="about fa fa-info fa-fw" href="#About">
-            <span>About</span>
-          </a>
-        </li>
-        <li className="list-item">
-          <a className="services fa fa-wrench fa-fw" href="#TechStack">
-            <span>Tech Stack</span>
-          </a>
-        </li>
-        <li className="list-item">
-          <a className="portfolio fa fa-folder fa-fw" href="#Projects">
-            <span>Projects</span>
-          </a>
-        </li>
-        <li className="list-item">
-          <a className="contact fa fa-envelope fa-wf" href="#Contact">
-            <span>Contact</span>
-          </a>
+    <div className="navigation">
+      <ul className="share-icons">
+        <a href="#">
+          <li className="share-icons__item">
+            <i className="fa fa-home text-black"></i>
+          </li>
+        </a>
+        <a href="#About">
+          <li className="share-icons__item">
+            <i className="fa fa-user-circle text-black"></i>
+          </li>
+        </a>
+        <a href="#TechStack">
+          <li className="share-icons__item">
+            <i className="fa fa-wrench text-black"></i>
+          </li>
+        </a>
+        <a href="#Projects">
+          <li className="share-icons__item">
+            <i className="fa fa-folder text-black"></i>
+          </li>
+        </a>
+        <a href="#Contact">
+          <li className="share-icons__item">
+            <i className="fa fa-envelope text-black"></i>
+          </li>
+        </a>
+        <li className="share-icons__block">
+          <div className="share-icons__block-top">
+            <i className="fas fa-bars text-primary"></i>
+          </div>
+          <div className="share-icons__block-bottom">
+            <i className="fas fa-bars text-primary"></i>
+          </div>
         </li>
       </ul>
     </div>
