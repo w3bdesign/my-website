@@ -1,7 +1,7 @@
 import React from "react";
-import './Contact.css'
+import './ContactCard.css'
 
-const Contact = () => {
+const ContactCard = () => {
   return (
     <div id="Contact" className="Contact">
       Contact
@@ -9,4 +9,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactCard;

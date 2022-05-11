@@ -6,7 +6,7 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import TechStack from './components/TechStack/TechStack';
 import Footer from './components/Footer/Footer';
-import Contact from './components/Contact/Contact';
+import ContactCard from './components/ContactCard/ContactCard';
 import ContactNav from './components/ContactNav/ContactNav';
 import Nav3 from './components/Nav3/Nav3';
 
@@ -21,7 +21,7 @@ function App() {
       <About />
       <TechStack />
       <Projects />
-      <Contact />
+      <ContactCard />
       <Footer />
     </div>
   );
