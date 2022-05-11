@@ -1,7 +1,7 @@
 import React from "react";
-import "./VerticalNav2.css";
+import "./ContactNav.css";
 
-const VerticalNav2 = () => {
+const ContactNav = () => {
   return (
     <div className="wrapper2">
       <ul className="menu2">
@@ -25,4 +25,4 @@ const VerticalNav2 = () => {
   );
 };
 
-export default VerticalNav2;
+export default ContactNav;
