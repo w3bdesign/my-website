@@ -6,17 +6,17 @@ const VerticalNav2 = () => {
     <div className="wrapper2">
       <ul className="menu2">
         <li>
-          <a href="#">
-            <i className="fab fa-facebook" aria-hidden="true"><span>Home</span></i>
+          <a target="_blank" href="mailto:joan.gerard@outlook.com">
+            <i className="fa fa-envelope" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="#">
+        <a target="_blank" href="https://www.linkedin.com/in/joangerard/">
             <i className="fab fa-linkedin" aria-hidden="true"></i>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a target="_blank" href="https://github.com/joan-gerard">
             <i className="fab fa-github" aria-hidden="true"></i>
           </a>
         </li>

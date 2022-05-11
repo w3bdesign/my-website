@@ -1,0 +1,14 @@
+     import Typewriter from "typewriter-effect";
+
+      <Typewriter
+        onInit={(typewriter) => {
+          typewriter
+
+            .typeString("Hello! I'm Joan!")
+            .deleteChars(10)
+            .typeString(" I am a full stack developer based in Stockholm")
+
+            // .deleteAll()
+            .start();
+        }}
+      />

@@ -15,7 +15,8 @@ function App() {
     <div className="App">
       <VerticalNav />
       <VerticalNav2 />
-      <Nav3 />
+
+      {/* <Nav3 /> */}
       <Home />
       <About />
       <TechStack />
