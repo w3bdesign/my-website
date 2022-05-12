@@ -1,10 +1,13 @@
-import React from 'react'
-import './About.css'
+import React from "react";
+import "./About.css";
+import AboutCard from "./AboutCard/AboutCard";
 
 const About = () => {
   return (
-    <div id="About" className="About">About</div>
-  )
-}
+    <div id="About" className="About">
+      <AboutCard />
+    </div>
+  );
+};
 
-export default About
+export default About;

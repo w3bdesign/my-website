@@ -1,7 +1,8 @@
 .About {
-  background-color: green;
-  height: 50vh;
+  background-color: #f0f5f9;
+  height:80vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
