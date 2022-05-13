@@ -1,6 +1,5 @@
 import React from "react";
 import "../AboutCard/AboutCard.scss";
-import profile from "../../../assets/profile-img.png";
 
 const AboutCard = () => {
   return (

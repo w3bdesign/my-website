@@ -1,9 +1,12 @@
 import React from 'react'
 import './TechStack.css'
+import TechStackCard from './TechStackCard/TechStackCard'
 
 const TechStack = () => {
   return (
-    <div id="TechStack" className="TechStack">TechStack</div>
+    <div id="TechStack" className="TechStack">
+      <TechStackCard />
+    </div>
   )
 }
 
