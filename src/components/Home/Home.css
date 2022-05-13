@@ -23,6 +23,10 @@
   opacity: 0.9;
 }
 
+.logo {
+  height: 80px;
+}
+
 /* .typewriter {
   position: absolute;
   font-family: sans-serif;
