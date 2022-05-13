@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import logo from "../../assets/logo.png";
 import TypewriterMessage from "../Typewriter/Typewriter";
 
 const Home = () => {
