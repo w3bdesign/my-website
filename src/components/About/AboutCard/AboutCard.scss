@@ -2,6 +2,12 @@ $body: #09000b;
 $nunito: "Nunito", sans-serif;
 $dark: #0a0a0a;
 
+.container {
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+
+}
+
 .profile {
   width: 900px;
   min-height: 300px;

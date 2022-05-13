@@ -1,16 +1,18 @@
 import React from "react";
-import "../AboutCard/AboutCard.scss";
+import "./About2.css";
 
-const AboutCard = () => {
+const About2 = () => {
   return (
-    <>
-      <div className="container">
-        <div className="profile">
-          <div className="image"></div>
-          <h1>About me</h1>
-          <div>
-            <h4>Full Stack Developer | Prince2/Agile and CAPM certified</h4>
-          </div>
+    <div className="About2">
+      <div className="container2">
+        <div className="box a">
+          <i className="fa fa-user-circle fa-5x"></i>
+        </div>
+        <div className="box b">
+          <h2>About me</h2>
+        </div>
+        <div className="box c">C</div>
+        <div className="box d">
           <p>
             As a Full Stack Developer and holder of the Prince2, Prince2 Agile
             and CAPM certifications, I am suited to fulfil specific roles in
@@ -27,9 +29,12 @@ const AboutCard = () => {
             Localization | Sustainability
           </p>
         </div>
+        <div className="box e">
+          <h1>Joan Gerard</h1>
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default AboutCard;
+export default About2;
