@@ -3,6 +3,7 @@ import "./Typewriter.css";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 const TypewriterMessage = () => {
+  // eslint-disable-next-line
   const { text, count } = useTypewriter({
     words: ["<Hello, I'm Joan. I am a Full-Stack Developer />"],
     loop: 1,

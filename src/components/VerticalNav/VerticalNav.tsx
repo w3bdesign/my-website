@@ -5,6 +5,7 @@ const VerticalNav = () => {
   return (
     <div className="navigation">
       <ul className="share-icons">
+      {/* eslint-disable-next-line */}
         <a href="#">
           <li className="share-icons__item">
             <i className="fa fa-home text-black"></i>
