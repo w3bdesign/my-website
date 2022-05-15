@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Countrypedia",
+    "description": "A REST Countries API with color theme switcher. The user is able to browse all countries on main page, click on a country to get more information, search for a country, filter by continent, and toggle betwwen light and dark themes",
+    "technologies": "NextJS | Typescript | External API | Style Components",
+    "githubLink": "https://github.com/joan-gerard/REST-countries",
+    "liveProjectLink": "http://www.google.com",
+    "screenshot": "/rest-countries/rest1.png"
+  },
+  {
+    "name": "project 2",
+    "description": "another description",
+    "technologies": "",
+    "githubLink": "a link for github",
+    "liveProjectLink": "a live project",
+    "screenshot": ""
+  },
+  {
+    "name": "project 3",
+    "description": "another description",
+    "technologies": "",
+    "githubLink": "a link for github",
+    "liveProjectLink": "a live project",
+    "screenshot": ""
+  },
+  {
+    "name": "project 4",
+    "description": "another description",
+    "technologies": "",
+    "githubLink": "a link for github",
+    "liveProjectLink": "a live project",
+    "screenshot": ""
+  }
+]
