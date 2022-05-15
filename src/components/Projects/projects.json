@@ -9,7 +9,7 @@
   },
   {
     "name": "Volvo Cars",
-    "description": "Completed as part of a frontend code test. The user is able to browse all cars, to filter the cars by type, and to click on separate links to find out and purchase the car",
+    "description": "Completed as part of a frontend code test. The user is able to browse all cars, to filter the cars by type, and to click on separate links to learn about the car or to purchase the car",
     "technologies": "NextJS | Typescript | CSS | Volvo UI library",
     "githubLink": "https://github.com/joan-gerard/volvo-frontend-code-test",
     "liveProjectLink": "http://www.google.com",
