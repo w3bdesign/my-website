@@ -8,27 +8,19 @@
     "screenshots": ["/rest-countries/rest1.png", "/rest-countries/rest2.png"]
   },
   {
-    "name": "project 2",
-    "description": "another description",
-    "technologies": "",
-    "githubLink": "a link for github",
-    "liveProjectLink": "a live project",
-    "screenshots": [""]
+    "name": "Volvo Cars",
+    "description": "Completed as part of a frontend code test. The user is able to browse all cars, to filter the cars by type, and to click on separate links to find out and purchase the car",
+    "technologies": "NextJS | Typescript | CSS | Volvo UI library",
+    "githubLink": "https://github.com/joan-gerard/volvo-frontend-code-test",
+    "liveProjectLink": "http://www.google.com",
+    "screenshots": ["/volvo-cars/volvo1.png", "/volvo-cars/volvo2.png"]
   },
   {
-    "name": "project 3",
-    "description": "another description",
-    "technologies": "",
-    "githubLink": "a link for github",
-    "liveProjectLink": "a live project",
-    "screenshots": [""]
-  },
-  {
-    "name": "project 4",
-    "description": "another description",
-    "technologies": "",
-    "githubLink": "a link for github",
-    "liveProjectLink": "a live project",
-    "screenshots": [""]
+    "name": "Ubiquity",
+    "description": "Completed as part of a frontend code test. The user is able to browse all products in a list or grid view, to search for products, to filter by category, and to click on a product to get more information",
+    "technologies": "ReactJS | Typescript | External API | CSS",
+    "githubLink": "https://github.com/joan-gerard/ui-fe-test-assignment",
+    "liveProjectLink": "http://www.google.com",
+    "screenshots": ["/ubiquity/ubiquity1.png", "/ubiquity/ubiquity2.png", "/ubiquity/ubiquity3.png", "/ubiquity/ubiquity4.png"]
   }
 ]
