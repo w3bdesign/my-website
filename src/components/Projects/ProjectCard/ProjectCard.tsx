@@ -27,6 +27,8 @@ const ProjectCard: React.FC<Props> = ({
   liveProjectLink,
   screenshots,
 }) => {
+
+    console.log('screenshots', screenshots.length)
   return (
     <div className="ProjectCard">
       <div className="project-info">
@@ -49,7 +51,7 @@ const ProjectCard: React.FC<Props> = ({
         <CarouselProvider
           naturalSlideWidth={1}
           naturalSlideHeight={1}
-          totalSlides={2}
+          totalSlides={screenshots.length}
           visibleSlides={1}
         >
           <Slider className="slider">

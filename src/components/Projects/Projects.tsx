@@ -11,8 +11,8 @@ const Projects = () => {
     setAllProjects(projects);
   }, []);
 
-  console.log("PROJECTS", projects);
-  console.log("allProjects", allProjects);
+  // console.log("PROJECTS", projects);
+  // console.log("allProjects", allProjects);
 
   return (
     <div id="Projects" className="Projects">
