@@ -1,12 +1,21 @@
 import React from "react";
 import "./ProjectCard.scss";
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+  DotGroup,
+} from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
 
 type Props = {
   name: string;
   description: string;
   githubLink: string;
   liveProjectLink: string;
-  screenshot: string;
+  screenshots: string[];
   technologies: string;
 };
 
@@ -16,7 +25,7 @@ const ProjectCard: React.FC<Props> = ({
   technologies,
   githubLink,
   liveProjectLink,
-  screenshot,
+  screenshots,
 }) => {
   return (
     <div className="ProjectCard">
@@ -24,8 +33,8 @@ const ProjectCard: React.FC<Props> = ({
         <div>
           <h1>{name}</h1>
           <p>{description}</p>
-          <p style={{marginBottom: 0}}>Built with:</p>
-          <p style={{marginTop: 5}}>{technologies}</p>
+          <p style={{ marginBottom: 0 }}>Built with:</p>
+          <p style={{ marginTop: 5 }}>{technologies}</p>
         </div>
         <div className="project-links">
           <form action={githubLink}>
@@ -36,8 +45,27 @@ const ProjectCard: React.FC<Props> = ({
           </form>
         </div>
       </div>
-      {/* <div className="project-screenshot-container"> */}
-        <img className="screenshot" src={screenshot} />
+      {/* <div className="carouselContainer"> */}
+        <CarouselProvider
+          naturalSlideWidth={1}
+          naturalSlideHeight={1}
+          totalSlides={2}
+          visibleSlides={1}
+        >
+          <Slider className="slider">
+            {screenshots.map((screen) => (
+              <img className="screenshot" src={screen} />
+            ))}
+          </Slider>
+          <div className="test">
+            <ButtonBack className="buttonBack">
+              <i className="fa fa-arrow-circle-left fa-3x"></i>
+            </ButtonBack>
+            <ButtonNext className="buttonNext">
+              <i className="fa fa-arrow-circle-right fa-3x"></i>
+            </ButtonNext>
+          </div>
+        </CarouselProvider>
       {/* </div> */}
     </div>
   );

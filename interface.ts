@@ -4,5 +4,5 @@ export interface ProjectType {
   technologies: string;
   githubLink: string;
   liveProjectLink: string;
-  screenshot: string;
+  screenshots: string[];
 }

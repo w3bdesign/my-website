@@ -44,6 +44,39 @@
   width: 650px;
   border-radius: 10px;
   border: 1px solid black;
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
 
+
+.test {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carousel {
+  position: relative;
+  padding: 0.15em 0.22em 0.10em 0.22em;
+  border-radius: 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.buttonBack {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+
+  &:hover {
+  }
+}
+
+.buttonNext {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+
+  &:hover {
+  }
 }

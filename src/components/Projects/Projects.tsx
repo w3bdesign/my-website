@@ -26,7 +26,7 @@ const Projects = () => {
             technologies={project.technologies}
             githubLink={project.githubLink}
             liveProjectLink={project.liveProjectLink}
-            screenshot={project.screenshot}
+            screenshots={project.screenshots}
           />
         ))}
       </div>
