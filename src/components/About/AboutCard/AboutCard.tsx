@@ -4,7 +4,7 @@ import "../AboutCard/AboutCard.scss";
 const AboutCard = () => {
   return (
     <>
-      <div className="container">
+      <div className="profile-container">
         <div className="profile">
           <div className="image"></div>
           <h1>About me</h1>
