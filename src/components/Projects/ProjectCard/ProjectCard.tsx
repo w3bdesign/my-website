@@ -40,10 +40,10 @@ const ProjectCard: React.FC<Props> = ({
         </div>
         <div className="project-links">
           <form className="goToGitHub" action={githubLink}>
-            <input type="submit" value="GitHub repo" />
+            <input className="goToGitHub-btn" type="submit" value="GitHub repo" />
           </form>
           <form className="goToLive" action={liveProjectLink}>
-            <input type="submit" value="See live" />
+            <input className="goToLive-btn" type="submit" value="See live" />
           </form>
         </div>
       </div>

@@ -34,14 +34,24 @@
     margin-right: 1em;
   }
 
-  input {
-    all: unset;
+  .goToGitHub-btn {
+    background-color: #1197cc;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .goToLive-btn {
+    background-color: #f33b3d;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
   }
 }
 
 .goToGitHub {
-  color: white;
-  font-weight: bold;
   background-color: #1197cc;
   box-shadow: 4px 4px 0px #094c66;
   border-radius: 8px;
