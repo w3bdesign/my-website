@@ -7,7 +7,6 @@ const AboutCard = () => {
       <div className="profile-container">
         <div className="profile">
           <div className="image"></div>
-          <h1>About me</h1>
           <div>
             <h4>Full Stack Developer | Prince2/Agile and CAPM certified</h4>
           </div>

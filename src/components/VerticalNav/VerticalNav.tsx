@@ -33,10 +33,10 @@ const VerticalNav = () => {
         </a>
         <li className="share-icons__block">
           <div className="share-icons__block-top">
-            <i className="fas fa-bars text-primary"></i>
+            <i className="fas fa-bars fa-2x text-primary"></i>
           </div>
           <div className="share-icons__block-bottom">
-            <i className="fas fa-bars text-primary"></i>
+            <i className="fas fa-bars fa-2x text-primary"></i>
           </div>
         </li>
       </ul>

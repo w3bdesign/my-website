@@ -10,10 +10,6 @@ const TechStackCard = () => {
   return (
     <div className="">
       <div className="techstack">
-        <div className="title">
-          <h1>Technologies</h1>
-        </div>
-
         <div className="tech-container">
           <div className="html">
             <i className="fab fa-html5 fa-4x"></i>
@@ -41,7 +37,13 @@ const TechStackCard = () => {
             <p>NodeJS</p>
           </div>
           <div className="express">
-            <img className="test" src={express} height="40px" width="100px" alt="express icon" />
+            <img
+              className="test"
+              src={express}
+              height="40px"
+              width="100px"
+              alt="express icon"
+            />
             <p>Express</p>
           </div>
           <div className="next">
