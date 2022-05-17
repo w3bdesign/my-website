@@ -2,11 +2,31 @@ import React from "react";
 import "../AboutCard/AboutCard.scss";
 
 const AboutCard = () => {
+
+  window.addEventListener("scroll", () => {
+    navigationVisible(document.querySelector(".profile-image"));
+  });
+
+  const navigationVisible = (targetElement: any) => {
+    if (window.scrollY > 560) {
+      targetElement.classList.add("profile-image-visible");
+      return;
+    }
+
+    if (
+      window.scrollY < 600 &&
+      targetElement.classList.contains("profile-image-visible")
+    ) {
+      targetElement.classList.remove("profile-image-visible");
+      return;
+    }
+  };
+
   return (
     <>
       <div className="profile-container">
         <div className="profile">
-          <div className="image"></div>
+          <div className="profile-image"></div>
           <div>
             <h4>Full Stack Developer | Prince2/Agile and CAPM certified</h4>
           </div>

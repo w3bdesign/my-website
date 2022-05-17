@@ -10,6 +10,7 @@ const TechStackCard = () => {
   return (
     <div className="">
       <div className="techstack">
+        <div>These are the techologies that I already know and also learning at the moment.</div>
         <div className="tech-container">
           <div className="html">
             <i className="fab fa-html5 fa-4x"></i>

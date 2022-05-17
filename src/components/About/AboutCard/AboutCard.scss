@@ -35,7 +35,7 @@ $breakpoint-mobile: 415px;
     line-height: 24px;
   }
 
-  .image {
+  .profile-image {
     width: 75px;
     height: 75px;
     background: #ffffff;
@@ -46,7 +46,7 @@ $breakpoint-mobile: 415px;
     top: 30px;
     transform-origin: bottom left;
     box-shadow: 0 3px 15px rgba($dark, 0.1);
-    transition: all 0.6s ease-in-out;
+    transition: all 1s ease-in-out;
 
     background-image: url("../../../assets/profile-img.png");
     background-size: cover;
@@ -54,12 +54,17 @@ $breakpoint-mobile: 415px;
     background-position: center center;
   }
 
-  &:hover {
-    .image {
-      transform: scale(2.5);
-      border-radius: 50px;
-    }
-  }
+  // &:hover {
+  //   .profile-image {
+  //     transform: scale(2.5);
+  //     border-radius: 50px;
+  //   }
+  // }
+}
+
+.profile-image-visible {
+  transform: scale(2.5);
+  border-radius: 50px;
 }
 
 @media (max-width: $breakpoint-mobile) {

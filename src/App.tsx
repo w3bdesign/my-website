@@ -12,6 +12,25 @@ import Footer from "./components/Footer/Footer";
 // import logo from "./assets/logo3.png";
 
 function App() {
+  window.addEventListener("scroll", () => {
+    navigationVisible(document.querySelector(".navigation"));
+  });
+
+  const navigationVisible = (targetElement: any) => {
+    if (window.scrollY > 580) {
+      targetElement.classList.add("navigation-visible");
+      return;
+    }
+
+    if (
+      window.scrollY < 600 &&
+      targetElement.classList.contains("navigation-visible")
+    ) {
+      targetElement.classList.remove("navigation-visible");
+      return;
+    }
+  };
+  
   return (
     <div className="App">
       {/* <img src={logo} alt="logo" className="logo" /> */}
