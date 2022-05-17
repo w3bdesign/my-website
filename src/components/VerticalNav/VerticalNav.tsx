@@ -9,27 +9,27 @@ const VerticalNav = () => {
       <ul className="share-icons">
         {/* eslint-disable-next-line */}
         <a href="#">
-          <li className="share-icons__item">
+          <li className="share-icons__item fa-home-list">
             <i className="fa fa-home text-black"></i>
           </li>
         </a>
         <a href="#About">
-          <li className="share-icons__item">
+          <li className="share-icons__item fa-user-circle-list">
             <i className="fa fa-user-circle text-black"></i>
           </li>
         </a>
         <a href="#TechStack">
-          <li className="share-icons__item">
+          <li className="share-icons__item fa-wrench-list">
             <i className="fa fa-wrench text-black"></i>
           </li>
         </a>
         <a href="#Projects">
-          <li className="share-icons__item">
+          <li className="share-icons__item fa-folder-list">
             <i className="fa fa-folder text-black"></i>
           </li>
         </a>
         <a href="#Contact">
-          <li className="share-icons__item">
+          <li className="share-icons__item fa-envelope-list">
             <i className="fa fa-envelope text-black"></i>
           </li>
         </a>

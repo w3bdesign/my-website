@@ -8,7 +8,7 @@ const AboutCard = () => {
   });
 
   const navigationVisible = (targetElement: any) => {
-    if (window.scrollY > 560) {
+    if (window.scrollY > 580) {
       targetElement.classList.add("profile-image-visible");
       return;
     }
