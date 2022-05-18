@@ -1,5 +1,10 @@
 import { useState } from "react";
 import "./Mobile.scss";
+import typescript from "../../assets/typescript.svg";
+import redux from "../../assets/redux.svg";
+import express from "../../assets/express.svg";
+import next from "../../assets/next.svg";
+import mongo from "../../assets/mongo.svg";
 
 const Mobile = () => {
   const [isActive, setActive] = useState<boolean>(false);
@@ -45,6 +50,34 @@ const Mobile = () => {
           Here are some of the technologies, languages or applications that I
           mostly use and have used for my personal projects
         </p>
+        <div className="tech-stack">
+          <div>
+            <i className="fab fa-html5 fa-2x"></i>
+            <i className="fab fa-css3-alt fa-2x"></i>
+
+            <i className="fab fa-js fa-2x"></i>
+            <img src={typescript} height="30px" alt="typescript icon" />
+            <i className="fab fa-node-js fa-2x"></i>
+          </div>
+          <div>
+            <i className="fab fa-react fa-2x"></i>
+            <i className="fab fa-git fa-2x"></i>
+            <i className="fab fa-sass fa-2x"></i>
+
+            <img src={redux} height="30px" alt="redux icon" />
+          </div>
+          <div>
+            <img
+              className="test"
+              src={express}
+              height="30px"
+              width="100px"
+              alt="express icon"
+            />
+            <img src={next} height="30px" width="100px" alt="next js icon" />
+            <img src={mongo} height="30px" width="100px" alt="next js icon" />
+          </div>
+        </div>
       </div>
       <div className="projects">
         <h2>Projects</h2>
