@@ -10,3 +10,13 @@
     margin-top: 2em;
   }
 }
+
+$breakpoint-mobile: 479px;
+
+@media (max-width: $breakpoint-mobile) {
+  .About {
+    background-color: green;
+    display: flex;
+    align-items: center;
+  }
+}

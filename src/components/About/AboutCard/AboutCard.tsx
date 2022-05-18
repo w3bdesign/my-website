@@ -1,5 +1,5 @@
 import React from "react";
-import "../AboutCard/AboutCard.scss";
+import "./AboutCard.scss";
 
 const AboutCard = () => {
 
@@ -26,7 +26,8 @@ const AboutCard = () => {
     <>
       <div className="profile-container">
         <div className="profile">
-          <div className="profile-image"></div>
+          <div className="profile-image">
+          </div>
           <div>
             <h4>Full Stack Developer | Prince2/Agile and CAPM certified</h4>
           </div>

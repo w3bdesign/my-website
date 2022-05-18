@@ -9,9 +9,14 @@ import TechStack from "./components/TechStack/TechStack";
 import Projects from "./components/Projects/Projects";
 import ContactCard from "./components/ContactCard/ContactCard";
 import Footer from "./components/Footer/Footer";
+import { useMediaQuery } from "react-responsive";
+import AboutMobile from "./components/AboutMobile/AboutMobile";
 // import logo from "./assets/logo3.png";
 
 function App() {
+  const isMobile = useMediaQuery({ maxWidth: 479 });
+  const isDesktop = useMediaQuery({ minWidth: 480 });
+
   window.addEventListener("scroll", () => {
     navigationVisible(document.querySelector(".navigation"));
   });
@@ -30,21 +35,26 @@ function App() {
       return;
     }
   };
-  
+
   return (
     <div className="App">
-      {/* <img src={logo} alt="logo" className="logo" /> */}
-
-      <VerticalNav />
-      <ContactNav />
-
-      <Home />
-      <About />
-      {/* <About2 /> */}
-      <TechStack />
-      <Projects />
-      <ContactCard />
-      <Footer />
+      {isMobile && (
+        <>
+          <AboutMobile />
+        </>
+      )}
+      {isDesktop && (
+        <>
+          <VerticalNav />
+          <ContactNav />
+          <Home />
+          <About />
+          <TechStack />
+          <Projects />
+          <ContactCard />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }
