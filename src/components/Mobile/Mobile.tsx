@@ -12,6 +12,7 @@ const Mobile = () => {
 
   return (
     <div className="portfolio">
+      <div className="background"></div>
       <div className="name">
         <h2>Joan Gerard</h2>
       </div>
@@ -25,9 +26,30 @@ const Mobile = () => {
         <span></span>
       </div>
       <div className="about">
-        <p>French Full Stack JS Devloper, now based in Stockholm.</p>
+        <h2>FRENCH FULL STACK JS DEVELOPER, NOW BASED IN STOCKHOLM</h2>
+        <p>
+          As a Full Stack Developer and holder of the Prince2, Prince2 Agile and
+          CAPM certifications, I am suited to fulfil specific roles in your
+          organisation. I possess the solid experience, education and competency
+          needed to work on software development projects.
+        </p>
+        <p>
+          These certifications, along with my real-life work experience, have
+          provided me with a broad efficiency in the use of Agile, Waterfall and
+          Hybrid methodologies.
+        </p>
       </div>
-      <div className="socials">
+      <div className="technologies">
+        <h2>Technologies</h2>
+        <p className="techstack-headline">
+          Here are some of the technologies, languages or applications that I
+          mostly use and have used for my personal projects
+        </p>
+      </div>
+      <div className="projects">
+        <h2>Projects</h2>
+      </div>
+      {/* <div className="socials">
         <div>
           <a
             target="_blank"
@@ -60,7 +82,7 @@ const Mobile = () => {
             </span>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
