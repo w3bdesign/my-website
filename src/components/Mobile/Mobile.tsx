@@ -17,9 +17,10 @@ const Mobile = () => {
 
   return (
     <div className="portfolio">
-      <div className="background"></div>
-      <div className="name">
-        <h2>Joan Gerard</h2>
+      <div className="background">
+        <div className="name">
+          <h2>Joan Gerard</h2>
+        </div>
       </div>
       <div
         id="hamburger"
