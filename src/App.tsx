@@ -11,6 +11,7 @@ import ContactCard from "./components/ContactCard/ContactCard";
 import Footer from "./components/Footer/Footer";
 import { useMediaQuery } from "react-responsive";
 import AboutMobile from "./components/AboutMobile/AboutMobile";
+import Mobile from "./components/Mobile/Mobile";
 // import logo from "./assets/logo3.png";
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
     <div className="App">
       {isMobile && (
         <>
-          <AboutMobile />
+        <Mobile />
+          {/* <AboutMobile /> */}
         </>
       )}
       {isDesktop && (

@@ -27,7 +27,7 @@ const AboutMobile = () => {
         <div className="title">Prince2/Agile and CAPM certified</div>
         <div className="actions">
           <div className="follow-info">
-            <h2>
+            {/* <h2>
               <a href="#">
                 <span>12</span>
                 <small>Followers</small>
@@ -38,7 +38,7 @@ const AboutMobile = () => {
                 <span>1000</span>
                 <small>Following</small>
               </a>
-            </h2>
+            </h2> */}
           </div>
           <div className="follow-btn">
             <button>Follow</button>
