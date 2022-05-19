@@ -6,9 +6,9 @@
   .background {
     background-image: url("../../assets/background_img.jpg");
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 10% 10%;
     background-attachment: scroll;
-    width: 100vh;
+    // width: 100vh;
     height: 100vh;
     //   position: absolute;
     //   overflow: hidden;
@@ -89,7 +89,7 @@
 
     p {
       font-weight: 500;
-      font-size: 0.66rem;
+      font-size: 0.7rem;
       line-height: 1.38;
     }
   }
@@ -119,7 +119,7 @@
 
     p {
       font-weight: 500;
-      font-size: 0.66rem;
+      font-size: 0.7rem;
       line-height: 1.38;
 
       margin-bottom: 1.6rem;

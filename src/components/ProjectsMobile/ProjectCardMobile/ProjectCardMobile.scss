@@ -1,0 +1,44 @@
+.ProjectCard {
+  background-color: green;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column-reverse;
+
+  .screenshot {
+    width: 392px;
+  }
+}
+
+.project-screenshot-container {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.carousel {
+  position: relative;
+  padding: 0.15em 0.22em 0.1em 0.22em;
+  border-radius: 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonBack {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+
+.buttonNext {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+  transform: translateY(-50%);
+}

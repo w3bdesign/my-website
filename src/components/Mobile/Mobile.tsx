@@ -5,6 +5,7 @@ import redux from "../../assets/redux.svg";
 import express from "../../assets/express.svg";
 import next from "../../assets/next.svg";
 import mongo from "../../assets/mongo.svg";
+import ProjectsMobile from "../ProjectsMobile/ProjectsMobile";
 
 const Mobile = () => {
   const [isActive, setActive] = useState<boolean>(false);
@@ -82,7 +83,8 @@ const Mobile = () => {
       </div>
       <div className="projects">
         <h2>Projects</h2>
-      </div>
+        <ProjectsMobile />
+´      </div>
       {/* <div className="socials">
         <div>
           <a

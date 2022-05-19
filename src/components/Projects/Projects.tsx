@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
 import "./Projects.css";
-import projects from "./projects.json";
+import projects from "../../projects.json";
 import { ProjectType } from "../../../interface";
 
 const Projects = () => {
