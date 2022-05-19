@@ -6,38 +6,39 @@
   margin-bottom: 1rem;
 
   .carousel {
+    margin: 0;
+    width: 100%;
     position: relative;
     padding: 0.15em 0.22em 0.1em 0.22em;
     border-radius: 15px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
     .slider {
-        width: 100%;
+      width: 100%;
     }
-  
+
     .screenshot {
-      width: 420px;
+        width: 398px;
     }
   }
-
 }
 
 .project-info {
-    h2 {
-        margin: 0;
-        margin-bottom: 1.66rem;
-        font-weight: 500;
-        font-size: 1.11rem;
-  
-    }
+  margin: 0;
+  width: 100%;
+  h2 {
+    margin: 0;
+    margin-bottom: 1.66rem;
+    font-weight: 500;
+    font-size: 1.11rem;
+  }
 
-    p {
-        font-weight: 500;
-        font-size: 0.7rem;
-        line-height: 1.38;
-  
-        margin-bottom: 1.6rem;
-  
-    }
+  p {
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 1.38;
+
+    margin-bottom: 1.6rem;
+  }
 }
 
 .project-screenshot-container {
@@ -45,8 +46,6 @@
   justify-content: flex-start;
   height: 100%;
 }
-
-
 
 .buttonsContainer {
   display: flex;
@@ -127,5 +126,4 @@
 .goToLive__hidden {
   visibility: hidden;
   padding: 0.5em;
-
 }

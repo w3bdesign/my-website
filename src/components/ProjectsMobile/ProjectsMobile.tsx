@@ -12,8 +12,6 @@ const ProjectsMobile = () => {
   }, []);
 
   return (
-    <div>
-      <div id="Projects" className="Projects">
         <div className="projectCards">
           {allProjects.map((project, idx) => (
             <ProjectCardMobile
@@ -27,8 +25,6 @@ const ProjectsMobile = () => {
             />
           ))}
         </div>
-      </div>
-    </div>
   );
 };
 

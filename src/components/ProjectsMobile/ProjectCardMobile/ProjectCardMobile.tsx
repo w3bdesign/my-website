@@ -56,8 +56,8 @@ const ProjectCardMobile: React.FC<Props> = ({
         </div>
         {/* <div className="carouselContainer"> */}
         <CarouselProvider
-          naturalSlideWidth={400}
-          naturalSlideHeight={200}
+          naturalSlideWidth={1}
+          naturalSlideHeight={1}
           totalSlides={screenshots.length}
           visibleSlides={1}
         >
