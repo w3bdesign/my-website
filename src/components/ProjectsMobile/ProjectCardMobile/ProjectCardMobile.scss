@@ -1,15 +1,19 @@
 .ProjectCard {
   box-sizing: content-box;
   max-width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column-reverse;
   margin-bottom: 1rem;
+  align-items: center;
 
   .carousel {
     margin: 0;
     box-sizing: content-box;
 
-    width: 100%;
+    width: 25rem;
+    height: auto;
+
     position: relative;
 
     border-radius: 15px;
@@ -21,17 +25,28 @@
     div {
       box-sizing: content-box;
 
-      width: 100%;
+      width: 400px;
+      height: auto;
     }
     .slider {
+      background-color: red;
       box-sizing: content-box;
+      border-radius: 15px;
 
       width: 100%;
+      height: auto;
+
+      display: flex;
+      align-items: center;
+
+      .carousel__slider-tray-wrapper {
+        background-color: yellow;
+        width: 100%;
+      }
     }
 
     .screenshot {
-        
-      max-width: 380px;
+      max-width: 27rem;
       border-radius: 15px;
     }
   }
