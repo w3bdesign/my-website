@@ -1,12 +1,10 @@
-
-
-.projectCards{
-        background-color: red;
-    width: 100%;
-    display: flex;
-    // flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
+.projectCards {
+  background-color: red;
+  box-sizing: content-box;
+  width: 100%;
+  display: flex;
+  // flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
