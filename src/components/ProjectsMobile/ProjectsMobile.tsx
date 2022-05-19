@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import projects from "../../projects.json";
 import { ProjectType } from "../../../interface";
 import ProjectCardMobile from "./ProjectCardMobile/ProjectCardMobile";
-import './ProjectsMobile.scss'
+import "./ProjectsMobile.scss";
 
 const ProjectsMobile = () => {
   const [allProjects, setAllProjects] = useState<ProjectType[]>([]);

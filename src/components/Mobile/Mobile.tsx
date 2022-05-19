@@ -84,7 +84,7 @@ const Mobile = () => {
       <div className="projects">
         <h2>Projects</h2>
         <ProjectsMobile />
-´      </div>
+      </div>
       {/* <div className="socials">
         <div>
           <a

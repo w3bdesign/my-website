@@ -1,12 +1,12 @@
 .ProjectCard {
   background-color: green;
-  max-width: 400px;
+  max-width: 100%;
   display: flex;
   flex-direction: column-reverse;
   margin-bottom: 1rem;
 
   .screenshot {
-    width: 392px;
+    width: 430px;
   }
 }
 
