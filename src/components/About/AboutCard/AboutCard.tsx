@@ -23,7 +23,6 @@ const AboutCard = () => {
   };
 
   return (
-    <>
       <div className="profile-container">
         <div className="profile">
           <div className="profile-image">
@@ -48,7 +47,6 @@ const AboutCard = () => {
           </p>
         </div>
       </div>
-    </>
   );
 };
 

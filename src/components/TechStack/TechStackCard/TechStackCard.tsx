@@ -8,9 +8,12 @@ import mongo from "../../../assets/mongo.svg";
 
 const TechStackCard = () => {
   return (
-    <div className="">
-      <div className="techstack">
-        <div className="techstack-headline">Here are some of the technologies, languages or applications that I mostly use and have used for my personal projects</div>
+    <div className="techstack-container">
+      <div className="technologies">
+        <div className="techstack-headline">
+          Here are some of the technologies, languages or applications that I
+          mostly use and have used for my personal projects
+        </div>
         <div className="tech-container">
           <div className="html">
             <i className="fab fa-html5 fa-4x"></i>
@@ -68,8 +71,8 @@ const TechStackCard = () => {
             <p>Sass</p>
           </div>
         </div>
-        {/* <div className="div21"> </div> */}
       </div>
+      {/* <div className="div21"> </div> */}
     </div>
   );
 };

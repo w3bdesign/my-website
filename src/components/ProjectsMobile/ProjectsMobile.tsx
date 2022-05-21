@@ -12,19 +12,19 @@ const ProjectsMobile = () => {
   }, []);
 
   return (
-        <div className="projectCards">
-          {allProjects.map((project, idx) => (
-            <ProjectCardMobile
-              key={idx}
-              name={project.name}
-              description={project.description}
-              technologies={project.technologies}
-              githubLink={project.githubLink}
-              liveProjectLink={project.liveProjectLink}
-              screenshots={project.screenshots}
-            />
-          ))}
-        </div>
+    <div className="projectCardsMobile">
+      {allProjects.map((project, idx) => (
+        <ProjectCardMobile
+          key={idx}
+          name={project.name}
+          description={project.description}
+          technologies={project.technologies}
+          githubLink={project.githubLink}
+          liveProjectLink={project.liveProjectLink}
+          screenshots={project.screenshots}
+        />
+      ))}
+    </div>
   );
 };
 

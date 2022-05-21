@@ -1,43 +1,40 @@
-.techstack {
-  width: 900px;
+.techstack-container {
+  max-width: 1000px;
+  margin: 0 6em;
+  margin-bottom: 3em;
+
   min-height: 300px;
-  margin: 0 auto 3em auto;
+  // margin: 0 auto 3em auto;
   background-color: #ffffff;
-  padding: 50px 50px 25px 50px;
+  padding: 50px 25px 25px 25px;
   border-radius: 10px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
 
-  h1 {
-    margin: 0 0 1em 0;
+  .technologies {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 50px 20px;
+    margin: 0 auto;
   }
-
-
-
-  // i {
-  //   background-color: green;
-  // }
-
-  // img {
-  //   background-color: yellow;
-  // }
 }
 
 .techstack-headline {
   margin-bottom: 1em;
+  max-width: 900px;
 }
 
 .tech-container {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-columns: 9em 9em 9em 9em;
   grid-template-rows: 100px 100px 100px;
-  gap: 6px 0px;
+  gap: 12px 0px;
   grid-template-areas:
     "html css sass javascript"
     "typescript node react redux"
     "express next mongo git";
-  justify-content: space-between;
+  justify-content: space-around;
+  max-width: 900px;
 
   div {
     display: grid;
@@ -48,6 +45,34 @@
       margin: 0.2em 0 0.2em 0;
       justify-self: center;
     }
+  }
+}
+
+@media (max-width: 920px) {
+  .tech-container {
+    background-color: green;
+    display: grid;
+    grid-template-columns: 9em 9em 9em;
+    grid-template-rows: 100px 100px 100px;
+    gap: 12px 0px;
+    grid-template-areas:
+      "html css sass"
+      "javascript typescript node"
+      "react redux express"
+      "next mongo git";
+    justify-content: space-around;
+    max-width: 900px;
+
+    // div {
+    //   display: grid;
+    //   margin: 0.25em;
+    //   place-self: center;
+    //   p {
+    //     margin: 0.2em 0 0.2em 0;
+    //     justify-self: center;
+    //   }
+  
+    // }
   }
 }
 

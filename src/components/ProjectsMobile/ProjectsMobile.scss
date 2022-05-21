@@ -1,9 +1,17 @@
-.projectCards {
+.projectCardsMobile {
+  // background-color: red;
   box-sizing: content-box;
   width: 100%;
   display: flex;
-  // flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  // align-items: center;
+  // justify-content: center;
+}
+
+.slick-slide {
+  background-color: green;
+}
+
+.slick-slide img {
+  margin: auto;
 }

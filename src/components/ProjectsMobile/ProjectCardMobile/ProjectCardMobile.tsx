@@ -1,14 +1,9 @@
 import React from "react";
 import "./ProjectCardMobile.scss";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-  DotGroup,
-} from "pure-react-carousel";
-import "pure-react-carousel/dist/react-carousel.es.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import img1 from "../../../assets/background_img.jpg";
 
 type Props = {
   name: string;
@@ -27,11 +22,19 @@ const ProjectCardMobile: React.FC<Props> = ({
   liveProjectLink,
   screenshots,
 }) => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 200,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
   return (
     <div className="ProjectCard">
       <div className="project-info">
         <div>
-          <h2>{name}</h2>
+          <h1>{name}</h1>
           <p>{description}</p>
           <p style={{ marginBottom: 0 }}>Built with:</p>
           <p style={{ marginTop: 5 }}>{technologies}</p>
@@ -54,30 +57,12 @@ const ProjectCardMobile: React.FC<Props> = ({
           </form>
         </div>
       </div>
-      {/* <div className="carouselContainer"> */}
-      <CarouselProvider
-        naturalSlideWidth={1}
-        naturalSlideHeight={1}
-        totalSlides={screenshots.length}
-        visibleSlides={1}
-      >
-        <Slider className="slider">
-          {screenshots.map((screen) => (
-            <div className="test">
-              <img className="screenshot" src={screen} />
-            </div>
-          ))}
-        </Slider>
-        <div className="buttonsContainer">
-          <ButtonBack className="buttonBack">
-            <i className="fa fa-arrow-circle-left fa-3x"></i>
-          </ButtonBack>
-          <ButtonNext className="buttonNext">
-            <i className="fa fa-arrow-circle-right fa-3x"></i>
-          </ButtonNext>
-        </div>
-      </CarouselProvider>
-      {/* </div> */}
+
+      <Slider {...settings}>
+        {screenshots.map((screen) => (
+          <img className="screenshot" src={screen} />
+        ))}
+      </Slider>
     </div>
   );
 };
