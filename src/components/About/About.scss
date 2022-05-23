@@ -4,19 +4,23 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(249, 249, 249);
-
+  // background-color: rgb(249, 249, 249);
+  background-color: aquamarine;
+  position: absolute;
+  right: 0;
+  width: calc(100vw - 310px);
+  height: 100vh;
   h1 {
     margin-top: 2em;
   }
 }
 
-$breakpoint-mobile: 479px;
+// $breakpoint-mobile: 479px;
 
-@media (max-width: $breakpoint-mobile) {
-  .About {
-    background-color: green;
-    display: flex;
-    align-items: center;
-  }
-}
+// @media (max-width: $breakpoint-mobile) {
+//   .About {
+//     background-color: green;
+//     display: flex;
+//     align-items: center;
+//   }
+// }

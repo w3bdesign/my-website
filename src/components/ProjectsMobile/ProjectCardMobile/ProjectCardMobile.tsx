@@ -23,46 +23,53 @@ const ProjectCardMobile: React.FC<Props> = ({
   screenshots,
 }) => {
   var settings = {
+    // autoplay: true,
+    // autoplaySpeed: 5000,
+    // infinite: true,
+
+    arrows: false,
     dots: true,
-    infinite: true,
-    speed: 200,
+    speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    adaptiveHeight: true,
   };
 
   return (
-    <div className="ProjectCard">
-      <div className="project-info">
-        <div>
-          <h1>{name}</h1>
-          <p>{description}</p>
-          <p style={{ marginBottom: 0 }}>Built with:</p>
-          <p style={{ marginTop: 5 }}>{technologies}</p>
-        </div>
-        <div className="project-links">
-          <form className="goToGitHub" action={githubLink}>
-            <input
-              className="goToGitHub-btn"
-              type="submit"
-              value="GitHub repo"
-            />
-          </form>
-          <form
-            className={`goToLive ${
-              liveProjectLink.length ? "" : "goToLive__hidden"
-            }`}
-            action={liveProjectLink}
-          >
-            <input className="goToLive-btn" type="submit" value="See live" />
-          </form>
-        </div>
-      </div>
-
+    <div className="project-card">
       <Slider {...settings}>
         {screenshots.map((screen) => (
           <img className="screenshot" src={screen} />
         ))}
       </Slider>
+
+      <div className="project-desc">
+        <div>
+          <h1>{name}</h1>
+          <p>{description}</p>
+        </div>
+        <div className="project-links">
+          <p style={{ marginBottom: 0 }}>Built with:</p>
+          <p style={{ marginTop: 5 }}>{technologies}</p>
+          <div className="project-nav">
+            <form className="goToGitHub" action={githubLink}>
+              <input
+                className="goToGitHub-btn"
+                type="submit"
+                value="GitHub repo"
+              />
+            </form>
+            <form
+              className={`goToLive ${
+                liveProjectLink.length ? "" : "goToLive__hidden"
+              }`}
+              action={liveProjectLink}
+            >
+              <input className="goToLive-btn" type="submit" value="See live" />
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

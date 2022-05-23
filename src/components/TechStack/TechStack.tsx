@@ -1,5 +1,5 @@
 import React from "react";
-import "./TechStack.css";
+import "./TechStack.scss";
 import TechStackCard from "./TechStackCard/TechStackCard";
 
 const TechStack = () => {

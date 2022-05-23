@@ -4,15 +4,16 @@ import { ProjectType } from "../../../interface";
 import ProjectCardMobile from "./ProjectCardMobile/ProjectCardMobile";
 import "./ProjectsMobile.scss";
 
-const ProjectsMobile = () => {
-  const [allProjects, setAllProjects] = useState<ProjectType[]>([]);
 
-  useEffect(() => {
-    setAllProjects(projects);
-  }, []);
+type Props = {
+  allProjects: ProjectType[];
+};
+
+
+const ProjectsMobile: React.FC<Props> = ({ allProjects }) => {
 
   return (
-    <div className="projectCardsMobile">
+    <div className="projects-container">
       {allProjects.map((project, idx) => (
         <ProjectCardMobile
           key={idx}

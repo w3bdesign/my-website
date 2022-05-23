@@ -5,7 +5,7 @@
     "technologies": "NextJS | Typescript | External API | Style Components",
     "githubLink": "https://github.com/joan-gerard/REST-countries",
     "liveProjectLink": "http://www.google.com",
-    "screenshots": ["/rest-countries/rest1.png", "/rest-countries/rest2.png"]
+    "screenshots": ["/rest-countries/rest2.png", "/rest-countries/rest1.png"]
   },
   {
     "name": "Volvo Cars",
@@ -21,6 +21,11 @@
     "technologies": "ReactJS | Typescript | External API | CSS",
     "githubLink": "https://github.com/joan-gerard/ui-fe-test-assignment",
     "liveProjectLink": "",
-    "screenshots": ["/ubiquity/ubiquity1.png", "/ubiquity/ubiquity2.png", "/ubiquity/ubiquity3.png", "/ubiquity/ubiquity4.png"]
+    "screenshots": [
+      "/ubiquity/ubiquity2.png",
+      "/ubiquity/ubiquity1.png",
+      "/ubiquity/ubiquity3.png",
+      "/ubiquity/ubiquity4.png"
+    ]
   }
 ]

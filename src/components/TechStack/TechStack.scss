@@ -5,5 +5,9 @@
   align-items: center;
   justify-content: center;
   background-color: rgb(245, 245, 245);
+  position: absolute;
+  right: 0;
+  width: calc(100vw - 310px);
+  height: 100vh;
 
 }

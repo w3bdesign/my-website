@@ -1,16 +1,13 @@
 import { useState, useEffect } from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
-import "./Projects.css";
-import projects from "../../projects.json";
+import "./Projects.scss";
 import { ProjectType } from "../../../interface";
 
-const Projects = () => {
-  const [allProjects, setAllProjects] = useState<ProjectType[]>([]);
+type Props = {
+  allProjects: ProjectType[];
+};
 
-  useEffect(() => {
-    setAllProjects(projects);
-  }, []);
-
+const Projects: React.FC<Props> = ({ allProjects }) => {
   // console.log("PROJECTS", projects);
   // console.log("allProjects", allProjects);
 

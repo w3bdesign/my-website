@@ -83,7 +83,7 @@ const Mobile = () => {
       </div>
       <div className="projects">
         <h2>Projects</h2>
-        <ProjectsMobile />
+        {/* <ProjectsMobile /> */}
       </div>
       {/* <div className="socials">
         <div>
