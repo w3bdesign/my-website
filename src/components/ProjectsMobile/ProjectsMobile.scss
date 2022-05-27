@@ -4,17 +4,16 @@
   // position: absolute;
   // display: flex;
   // flex-wrap: wrap;
-  right: 0;
-  top: 2em;
-  width: calc(100vw - 310px);
+  // right: 0;
+  // top: 2em;
+  // width: calc(100vw - 310px);
 
   // align-items: center;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  grid-gap: 1.5rem;
-  align-items: center;
-  margin: auto;
-  place-self: center;
-
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 2rem;
+  // align-items: center;
+  // margin: auto;
+  padding: 5em;
 }

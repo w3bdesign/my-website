@@ -38,8 +38,8 @@ const ProjectCardMobile: React.FC<Props> = ({
   return (
     <div className="project-card">
       <Slider {...settings}>
-        {screenshots.map((screen) => (
-          <img className="screenshot" src={screen} />
+        {screenshots.map((screen, idx) => (
+          <img key={idx} className="screenshot" src={screen} />
         ))}
       </Slider>
 

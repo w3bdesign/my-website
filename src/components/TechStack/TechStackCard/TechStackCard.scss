@@ -1,14 +1,14 @@
 .techstack-container {
   max-width: 1000px;
-  margin: 0 6em;
+  margin: 5em 6em 0 6em;
   margin-bottom: 3em;
 
   min-height: 300px;
   // margin: 0 auto 3em auto;
   background-color: #ffffff;
-  padding: 50px 25px 25px 25px;
-  border-radius: 10px;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  // padding: 50px 25px 25px 25px;
+  // border-radius: 10px;
+  // box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 
   .technologies {
     max-width: 100%;
@@ -25,6 +25,7 @@
 }
 
 .tech-container {
+  margin-top: 5em;
   display: grid;
   grid-template-columns: 9em 9em 9em 9em;
   grid-template-rows: 100px 100px 100px;

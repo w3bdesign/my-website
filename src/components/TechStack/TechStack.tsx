@@ -5,7 +5,6 @@ import TechStackCard from "./TechStackCard/TechStackCard";
 const TechStack = () => {
   return (
     <div id="TechStack" className="TechStack">
-      <h1>Technologies</h1>
 
       <TechStackCard />
     </div>

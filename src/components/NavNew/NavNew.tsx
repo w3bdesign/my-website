@@ -31,7 +31,7 @@ const NavNew: React.FC<Props> = ({ allProjects }) => {
   return (
     <div className="NavNew">
       <div className="logo" onClick={goToLanding}>
-        <img src={logo} />
+        {/* <img src={logo} /> */}
         <h2>Joan Gerard</h2>
       </div>
       {/* <div className="bottomnav"> */}

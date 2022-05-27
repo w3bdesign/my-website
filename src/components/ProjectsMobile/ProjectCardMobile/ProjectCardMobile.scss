@@ -1,11 +1,13 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 400px;
   // min-height: 550px;
   margin: 0.5em 0.5em;
-    border-radius: 10px;
-    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  justify-self: center;
+  padding: 0.5em;
 }
 
 .project-desc {
@@ -34,11 +36,10 @@
     margin-right: 1em;
   }
 
-  .project-nav{
+  .project-nav {
     display: flex;
     flex-direction: row;
     margin-bottom: 0.2em;
-
   }
 
   .goToGitHub-btn {

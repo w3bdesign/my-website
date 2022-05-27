@@ -27,5 +27,34 @@
       "/ubiquity/ubiquity3.png",
       "/ubiquity/ubiquity4.png"
     ]
+  },
+  {
+    "name": "Countrypedia",
+    "description": "In Progress - A REST Countries API with color theme switcher. The user is able to browse all countries on main page, click on a country to get more information, search for a country, filter by continent, and toggle betwwen light and dark themes",
+    "technologies": "NextJS | Typescript | External API | Style Components",
+    "githubLink": "https://github.com/joan-gerard/REST-countries",
+    "liveProjectLink": "http://www.google.com",
+    "screenshots": ["/rest-countries/rest2.png", "/rest-countries/rest1.png"]
+  },
+  {
+    "name": "Volvo Cars",
+    "description": "Completed as part of a frontend code test. The user is able to browse all cars, to filter the cars by type, and to click on separate links to learn about the car or to purchase the car",
+    "technologies": "NextJS | Typescript | CSS | Volvo UI library",
+    "githubLink": "https://github.com/joan-gerard/volvo-frontend-code-test",
+    "liveProjectLink": "",
+    "screenshots": ["/volvo-cars/volvo1.png", "/volvo-cars/volvo2.png"]
+  },
+  {
+    "name": "Ubiquity",
+    "description": "Completed as part of a frontend code test. The user is able to browse all products in a list or grid view, to search for products, to filter by category, and to click on a product to get more information",
+    "technologies": "ReactJS | Typescript | External API | CSS",
+    "githubLink": "https://github.com/joan-gerard/ui-fe-test-assignment",
+    "liveProjectLink": "",
+    "screenshots": [
+      "/ubiquity/ubiquity2.png",
+      "/ubiquity/ubiquity1.png",
+      "/ubiquity/ubiquity3.png",
+      "/ubiquity/ubiquity4.png"
+    ]
   }
 ]
