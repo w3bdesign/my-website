@@ -1,19 +1,17 @@
 .project-card {
-  background-color: green;
   display: flex;
   flex-direction: column;
   width: 300px;
   // min-height: 550px;
   margin: 0.5em 0.5em;
-  //   border-radius: 10px;
-  //   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
 }
 
 .project-desc {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: yellow;
   min-height: 380px;
 
   h1 {

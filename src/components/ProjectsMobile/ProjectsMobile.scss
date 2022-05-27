@@ -1,14 +1,20 @@
 .projects-container {
-  background-color: red;
   // box-sizing: content-box;
-  width: 100%;
-  display: flex;
-  position: absolute;
-  flex-wrap: wrap;
+  // width: 100%;
+  // position: absolute;
+  // display: flex;
+  // flex-wrap: wrap;
   right: 0;
   top: 2em;
   width: calc(100vw - 310px);
 
   // align-items: center;
-  justify-content: center;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-gap: 1.5rem;
+  align-items: center;
+  margin: auto;
+  place-self: center;
+
 }
