@@ -37,15 +37,16 @@ const AboutCard = () => {
           Translation and Interpreting.
         </p>
         <p>
-          After my studies, I started a role as a French Content Editor for a
-          media company, where I got to work with international teams. After a
-          couple of years at this company, I got my Prince2 Agile and CAPM
-          certifications and took on the role of Project Coordinator.
+          I then started a role as a French Content Editor for a media company,
+          where I got to work with international teams. After a couple of years
+          at this company, I got my Prince2 Agile and CAPM certifications and
+          took on the role of Project Coordinator.
         </p>
         <p>
           I moved to Stockholm, Sweden, in February 2021, to pursue a career in
           software development. I completed an intensive 3-month Full Stack JS
-          bootcamp at the School of Applied Technology
+          bootcamp at the School of Applied Technology. I like to spend my free time
+          working on projects to learn and practice new concepts and technologies.
         </p>
         {/* <p>
           As a Full Stack Developer and holder of the Prince2, Prince2 Agile and
@@ -60,7 +61,7 @@ const AboutCard = () => {
         </p> */}
         <p>
           My passions are Technologies | Gaming | Media | Linguistics |
-          Localization | Sustainability
+          Localization | Sustainability.
         </p>
       </div>
     </div>

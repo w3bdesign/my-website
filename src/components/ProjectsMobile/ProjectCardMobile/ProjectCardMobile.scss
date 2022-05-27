@@ -1,13 +1,19 @@
 .project-card {
+  background-color: #f1eded;
   display: flex;
   flex-direction: column;
   width: 400px;
   // min-height: 550px;
   margin: 0.5em 0.5em;
   border-radius: 10px;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  // box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 5px rgb(0 0 0 / 13%), 0 1px 2px rgb(0 0 0 / 13%);
   justify-self: center;
   padding: 0.5em;
+
+  &:hover {
+    transform: translateY(-1%);
+  }
 }
 
 .project-desc {
@@ -21,9 +27,26 @@
     margin-top: 1em;
   }
 
-  div:first-child {
+  > div:first-child {
     display: flex;
     flex-direction: column;
+    > p {
+      line-height: 1.4em;
+  
+    }
+  }
+
+  .project-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.2em;
+
+    p {
+      background-color: white;
+      margin: 0.2em 0.2em;
+      padding: 0.3em 0.6em;
+      border-radius: 25px;
+    }
   }
 }
 
@@ -92,8 +115,10 @@
 }
 
 .slick-slider {
+  position: relative;
+  z-index: 1;
 }
 
 .slick-slider img {
-  // margin: auto;
+  border-radius: 10px;
 }

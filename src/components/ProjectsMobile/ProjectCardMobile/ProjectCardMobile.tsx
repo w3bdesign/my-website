@@ -11,7 +11,7 @@ type Props = {
   githubLink: string;
   liveProjectLink: string;
   screenshots: string[];
-  technologies: string;
+  technologies: string[];
 };
 
 const ProjectCardMobile: React.FC<Props> = ({
@@ -47,10 +47,15 @@ const ProjectCardMobile: React.FC<Props> = ({
         <div>
           <h1>{name}</h1>
           <p>{description}</p>
+          <div className="project-technologies">
+            {/* <p style={{ marginBottom: 0 }}>Built with:</p> */}
+            {technologies.map((tech, idx) => (
+              <p key={idx}>{tech}</p>
+            ))}
+          </div>
         </div>
         <div className="project-links">
-          <p style={{ marginBottom: 0 }}>Built with:</p>
-          <p style={{ marginTop: 5 }}>{technologies}</p>
+          {/* <p style={{ marginTop: 5 }}>{technologies}</p> */}
           <div className="project-nav">
             <form className="goToGitHub" action={githubLink}>
               <input

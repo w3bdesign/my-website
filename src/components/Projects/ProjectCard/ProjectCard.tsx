@@ -16,7 +16,7 @@ type Props = {
   githubLink: string;
   liveProjectLink: string;
   screenshots: string[];
-  technologies: string;
+  technologies: string[];
 };
 
 const ProjectCard: React.FC<Props> = ({

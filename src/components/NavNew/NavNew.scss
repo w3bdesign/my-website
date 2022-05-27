@@ -1,13 +1,12 @@
 .NavNew {
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   background-color: rgb(245, 245, 245);
   display: flex;
   font-display: row;
   justify-content: space-between;
   padding: 1em;
-  
 
   .logo {
     display: flex;
@@ -36,4 +35,3 @@
     }
   }
 }
-//
