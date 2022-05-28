@@ -45,8 +45,7 @@ const AboutCard = () => {
         <p>
           I moved to Stockholm, Sweden, in February 2021, to pursue a career in
           software development. I completed an intensive 3-month Full Stack JS
-          bootcamp at the School of Applied Technology. I like to spend my free time
-          working on projects to learn and practice new concepts and technologies.
+          bootcamp at the School of Applied Technology.
         </p>
         {/* <p>
           As a Full Stack Developer and holder of the Prince2, Prince2 Agile and
@@ -60,8 +59,9 @@ const AboutCard = () => {
           Hybrid methodologies.
         </p> */}
         <p>
-          My passions are Technologies | Gaming | Media | Linguistics |
-          Localization | Sustainability.
+          I like to spend my free time working on projects to learn and practice
+          new concepts and technologies. My passions are Technologies | Gaming |
+          Media | Linguistics | Localization | Sustainability.
         </p>
       </div>
     </div>
