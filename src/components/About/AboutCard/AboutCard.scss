@@ -84,14 +84,3 @@ $breakpoint-tablet-about: 850px;
   }
 }
 
-$breakpoint-mobile-about: 500px;
-
-@media (max-width: $breakpoint-mobile-about) {
-  .profile-container{
-    // margin: 0 2em;
-
-  }
-  .profile{
-    // width: 80%;
-  }
-}

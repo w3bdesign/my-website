@@ -32,7 +32,19 @@
 
     p {
       margin: 0 1em;
-      font-size: 1.2vw;
+      // font-size: 1.2vw;
+    }
+  }
+}
+
+$breakpoint-mobile-nav: 500px;
+
+@media (max-width: $breakpoint-mobile-nav) {
+  .NavNew {
+    .nav-links {
+      p {
+        font-size: 10px;
+      }
     }
   }
 }
