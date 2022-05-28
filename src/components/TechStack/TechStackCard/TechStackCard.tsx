@@ -8,7 +8,7 @@ import mongo from "../../../assets/mongo.svg";
 
 const TechStackCard = () => {
   return (
-    <div className="techstack-container">
+    // <div className="techstack-container">
       <div className="technologies">
         <div className="techstack-headline">
           Here are some of the technologies, languages or applications that I
@@ -72,8 +72,7 @@ const TechStackCard = () => {
           </div>
         </div>
       </div>
-      {/* <div className="div21"> </div> */}
-    </div>
+    // </div>
   );
 };
 
