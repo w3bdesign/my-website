@@ -1,7 +1,7 @@
 [
   {
     "name": "Countrypedia",
-    "description": "In Progress - A REST Countries API with color theme switcher. The user is able to browse all countries on main page, click on a country to get more information, search for a country, filter by continent, and toggle betwwen light and dark themes",
+    "description": "In Progress - A REST Countries API with color theme switcher. The user is able to browse all countries on main page, click on a country to get more information, search for a country, filter by continent, and toggle between light and dark themes",
     "technologies": [
       "NextJS",
       "Typescript",
@@ -14,7 +14,7 @@
   },
   {
     "name": "Volvo Cars",
-    "description": "In this application, the user is able to browse all cars, to filter the cars by type. When clicking on the Learn and Shop links, the user is brought to another page to learn about the car or to purchase the car",
+    "description": "In this application, the user is able to browse all cars, and to filter the cars by type. When clicking on the Learn and Shop links, the user is brought to another page to learn about the car or to purchase the car",
     "technologies": ["NextJS", "Typescript", "CSS", "Volvo UI library"],
     "githubLink": "https://github.com/joan-gerard/volvo-frontend-code-test",
     "liveProjectLink": "",
