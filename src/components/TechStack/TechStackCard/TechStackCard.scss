@@ -118,7 +118,13 @@ $breakpoint-tablet-stack: 850px;
     margin: 5em;
   }
 }
-$breakpoint-mobile-stack: 439px;
+@media (max-width: 711px) {
+  .technologies {
+    margin: 2em;
+  }
+}
+
+$breakpoint-mobile-stack: 450px;
 
 @media (max-width: $breakpoint-mobile-stack) {
   .technologies {
@@ -127,6 +133,7 @@ $breakpoint-mobile-stack: 439px;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
       grid-gap: 2rem;
+      margin-top: 1em;
     }
   }
 }

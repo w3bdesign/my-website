@@ -27,7 +27,7 @@ const AboutCard = () => {
         <div className="profile-image"></div>
         <div>
           <h1>About Joan</h1>
-          {/* <h4>Full Stack Developer | Prince2/Agile and CAPM certified</h4> */}
+          <h4>Full Stack Developer | Prince2/Agile and CAPM certified</h4>
         </div>
         <p>
           Born in France, I spent most of my adult life in London, UK. During
