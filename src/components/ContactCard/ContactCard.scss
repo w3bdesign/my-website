@@ -47,9 +47,9 @@
   color: white;
 }
 
-$breakpoint-mobile-contact: 850px;
+$breakpoint-tablet-contact: 850px;
 
-@media (max-width: $breakpoint-mobile-contact) {
+@media (max-width: $breakpoint-tablet-contact) {
   .contact-card {
     display: flex;
     flex-direction: column;
@@ -58,6 +58,27 @@ $breakpoint-mobile-contact: 850px;
 
     .left-panel {
       margin-bottom: 1em;
+    }
+  }
+}
+
+$breakpoint-mobile-contact: 450px;
+
+@media (max-width: $breakpoint-mobile-contact) {
+  .contact-card {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    letter-spacing: 0.02em;
+
+    margin-top: 1em;
+
+    .fa-envelope-open,
+    .fa-map-pin,
+    .fa-phone,
+    .fa-linkedin,
+    .fa-github {
+      color: red;
     }
   }
 }
