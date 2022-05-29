@@ -114,5 +114,19 @@
 $breakpoint-tablet-stack: 850px;
 
 @media (max-width: $breakpoint-tablet-stack) {
-  
+  .technologies {
+    margin: 5em;
+  }
+}
+$breakpoint-mobile-stack: 439px;
+
+@media (max-width: $breakpoint-mobile-stack) {
+  .technologies {
+    margin: 1em;
+    .tech-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+      grid-gap: 2rem;
+    }
+  }
 }
