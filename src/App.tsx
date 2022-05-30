@@ -1,29 +1,18 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import VerticalNav from "./components/VerticalNav/VerticalNav";
-import ContactNav from "./components/ContactNav/ContactNav";
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-// import About2 from "./components/About2/About2";
 import TechStack from "./components/TechStack/TechStack";
-import Projects from "./components/Projects/Projects";
-import ContactCard from "./components/ContactCard/ContactCard";
 import Footer from "./components/Footer/Footer";
-import { useMediaQuery } from "react-responsive";
-import AboutMobile from "./components/AboutMobile/AboutMobile";
-import Mobile from "./components/Mobile/Mobile";
-import NavNew from "./components/NavNew/NavNew";
-import Landing from "./components/Landing/Landing";
+import Header from "./components/Header/Header";
 import projects from "./projects.json";
 import { ProjectType } from "../interface";
-import ProjectsMobile from "./components/ProjectsMobile/ProjectsMobile";
-
-// import logo from "./assets/logo3.png";
+import Projects from "./components/Projects/Projects";
+import About from "./components/About/About";
+// import { useMediaQuery } from "react-responsive";
 
 function App() {
-  const isMobile = useMediaQuery({ maxWidth: 479 });
-  const isDesktop = useMediaQuery({ minWidth: 480 });
+  // const isMobile = useMediaQuery({ maxWidth: 479 });
+  // const isDesktop = useMediaQuery({ minWidth: 480 });
 
   // window.addEventListener("scroll", () => {
   //   navigationVisible(document.querySelector(".navigation"));
@@ -53,14 +42,13 @@ function App() {
   return (
     <div className="App">
       <>
-        <NavNew allProjects={allProjects} />
+        <Header allProjects={allProjects} />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
-          {/* <Route psath="/contact" element={<ContactCard />} /> */}
           <Route
             path="/projects"
-            element={<ProjectsMobile allProjects={allProjects} />}
+            element={<Projects allProjects={allProjects} />}
           />
           <Route path="/technologies" element={<TechStack />} />
         </Routes>

@@ -8,7 +8,6 @@
 
 .techstack-headline {
   margin-bottom: 1em;
-  // max-width: 900px;
 }
 
 .tech-container {
@@ -16,64 +15,16 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
   grid-gap: 4rem;
-  // grid-template-columns: 9em 9em 9em 9em;
-  // grid-template-rows: 100px 100px 100px;
-  // gap: 40px 0px;
-  // grid-template-areas:
-  //   "html css sass javascript"
-  //   "typescript node react redux"
-  //   "express next mongo git";
-  // justify-content: space-around;
-  // max-width: 900px;
 
   div {
     display: grid;
-    // margin: 0.25em;
     place-self: center;
 
     p {
-      // margin: 0.2em 0 0.2em 0;
       justify-self: center;
     }
   }
 }
-
-// .html {
-//   grid-area: html;
-// }
-// .css {
-//   grid-area: css;
-// }
-// .sass {
-//   grid-area: sass;
-// }
-// .javascript {
-//   grid-area: javascript;
-// }
-// .typescript {
-//   grid-area: typescript;
-// }
-// .node {
-//   grid-area: node;
-// }
-// .react {
-//   grid-area: react;
-// }
-// .redux {
-//   grid-area: redux;
-// }
-// .express {
-//   grid-area: express;
-// }
-// .git {
-//   grid-area: git;
-// }
-// .next {
-//   grid-area: next;
-// }
-// .mongo {
-//   grid-area: mongo;
-// }
 
 .fa-html5 {
   color: rgb(205, 84, 52);
@@ -93,23 +44,6 @@
 .fa-sass {
   color: rgb(207, 100, 154);
 }
-
-// @media (max-width: 920px) {
-//   .tech-container {
-//     display: grid;
-//     grid-template-columns: 9em 9em 9em;
-//     grid-template-rows: 100px 100px 100px;
-//     gap: 12px 0px;
-//     grid-template-areas:
-//       "html css sass"
-//       "javascript typescript node"
-//       "react redux express"
-//       "next mongo git";
-//     justify-content: space-around;
-//     max-width: 900px;
-
-//   }
-// }
 
 $breakpoint-tablet-stack: 850px;
 

@@ -12,6 +12,9 @@
 .menu2 li {
   list-style: none;
 }
+
+
+
 .menu2 li a {
   position: relative;
   width: 40px;
@@ -57,4 +60,37 @@ $breakpoint-mobile-nav: 700px;
       margin: 0 0.5em;
     }
   }
+}
+
+@media(min-width: $breakpoint-mobile-nav) {
+  .menu2 li {
+    display: inline-block;
+    list-style: none;
+    animation: float 10s ease-in-out infinite;
+    animation-delay: 1s;
+  
+    &:nth-child(2) {
+      animation-delay: 1.2s;
+    }
+    &:nth-child(3) {
+      animation-delay: 1.4s;
+    }
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    5% {
+      transform: translateY(-10px);
+    }
+    10% {
+      transform: translateY(0);
+    }
+    // 100% {
+    //   transform: translateY(0);
+    // }
+  }
+  
+  
 }

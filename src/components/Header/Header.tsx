@@ -1,8 +1,6 @@
 import React from "react";
-import "./NavNew.scss";
-import { Link } from "react-router-dom";
+import "./Header.scss";
 import { useNavigate } from "react-router-dom";
-import logo from "../../assets/profile-img.png";
 import { ProjectType } from "../../../interface";
 import ContactNav from "../ContactNav/ContactNav";
 import { useMediaQuery } from "react-responsive";
@@ -11,7 +9,7 @@ type Props = {
   allProjects: ProjectType[];
 };
 
-const NavNew: React.FC<Props> = ({ allProjects }) => {
+const Header: React.FC<Props> = ({ allProjects }) => {
   const navigate = useNavigate();
 
   const goToAbout = () => {
@@ -20,9 +18,9 @@ const NavNew: React.FC<Props> = ({ allProjects }) => {
   const goToLanding = () => {
     navigate("/");
   };
-  const goToContact = () => {
-    navigate("/contact");
-  };
+  // const goToContact = () => {
+  //   navigate("/contact");
+  // };
   const goToProjects = () => {
     navigate("/projects");
   };
@@ -49,4 +47,4 @@ const NavNew: React.FC<Props> = ({ allProjects }) => {
   );
 };
 
-export default NavNew;
+export default Header;

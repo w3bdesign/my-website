@@ -1,7 +1,17 @@
-.Projects {
-  position: absolute;
-  right: 0;
-  width: calc(100vw - 310px);
-  height: 100vh;
-background-color: teal;
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-gap: 6rem;
+  padding: 1em 5em;
+}
+
+$breakpoint-mobile-projects: 520px;
+
+@media (max-width: $breakpoint-mobile-projects) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 0.6em;
+    padding: 1em 1em;
+  }
 }

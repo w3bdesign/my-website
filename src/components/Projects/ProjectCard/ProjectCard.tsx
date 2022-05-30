@@ -1,14 +1,8 @@
 import React from "react";
 import "./ProjectCard.scss";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-  DotGroup,
-} from "pure-react-carousel";
-import "pure-react-carousel/dist/react-carousel.es.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 type Props = {
   name: string;
@@ -27,51 +21,59 @@ const ProjectCard: React.FC<Props> = ({
   liveProjectLink,
   screenshots,
 }) => {
-  console.log("liveProjectLink", liveProjectLink.length);
+  var settings = {
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+    // infinite: true,
+
+    arrows: false,
+    dots: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+  };
+
   return (
-    <div className="ProjectCard">
-      <div className="project-info">
+    <div className="project-card">
+      <Slider {...settings}>
+        {screenshots.map((screen, idx) => (
+          <img key={idx} className="screenshot" src={screen} alt="" />
+        ))}
+      </Slider>
+
+      <div className="project-desc">
         <div>
           <h1>{name}</h1>
           <p>{description}</p>
-          <p style={{ marginBottom: 0 }}>Built with:</p>
-          <p style={{ marginTop: 5 }}>{technologies}</p>
+          <div className="project-technologies">
+            {/* <p style={{ marginBottom: 0 }}>Built with:</p> */}
+            {technologies.map((tech, idx) => (
+              <p key={idx}>{tech}</p>
+            ))}
+          </div>
         </div>
         <div className="project-links">
-          <form className="goToGitHub" action={githubLink}>
-            <input
-              className="goToGitHub-btn"
-              type="submit"
-              value="GitHub repo"
-            />
-          </form>
-          <form className={`goToLive ${liveProjectLink.length ? "" : "goToLive__hidden"}`} action={liveProjectLink}>
-            <input className="goToLive-btn" type="submit" value="See live" />
-          </form>
+          {/* <p style={{ marginTop: 5 }}>{technologies}</p> */}
+          <div className="project-nav">
+            <form className="goToGitHub" action={githubLink}>
+              <input
+                className="goToGitHub-btn"
+                type="submit"
+                value="GitHub repo"
+              />
+            </form>
+            <form
+              className={`goToLive ${
+                liveProjectLink.length ? "" : "goToLive__hidden"
+              }`}
+              action={liveProjectLink}
+            >
+              <input className="goToLive-btn" type="submit" value="See live" />
+            </form>
+          </div>
         </div>
       </div>
-      {/* <div className="carouselContainer"> */}
-      <CarouselProvider
-        naturalSlideWidth={1}
-        naturalSlideHeight={1}
-        totalSlides={screenshots.length}
-        visibleSlides={1}
-      >
-        <Slider className="slider">
-          {screenshots.map((screen) => (
-            <img className="screenshot" src={screen} />
-          ))}
-        </Slider>
-        <div className="test">
-          <ButtonBack className="buttonBack">
-            <i className="fa fa-arrow-circle-left fa-3x"></i>
-          </ButtonBack>
-          <ButtonNext className="buttonNext">
-            <i className="fa fa-arrow-circle-right fa-3x"></i>
-          </ButtonNext>
-        </div>
-      </CarouselProvider>
-      {/* </div> */}
     </div>
   );
 };
