@@ -1,4 +1,7 @@
 .App {
-  /* background-color: green;
-  height: 100%; */
+  /* background-color: green; */
+display: flex;
+flex-direction: column;
+
+justify-content: space-between;
 }

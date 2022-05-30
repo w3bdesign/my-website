@@ -1,3 +1,6 @@
+.projects {
+  
+}
 .projects-container {
   // box-sizing: content-box;
   // width: 100%;
@@ -24,7 +27,7 @@ $breakpoint-mobile-projects: 520px;
   .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    grid-gap: 0;
+    grid-gap: 0.6em;
     // align-items: center;
     // margin: auto;
     padding: 1em 1em;

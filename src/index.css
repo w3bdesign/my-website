@@ -7,14 +7,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* color: white; */
-  width: 100%;
-  height: 100vh;
+  /* width: 100%;
+  height: 100%; */
+  
 }
-
 html {
   scroll-behavior: smooth;
 }
 
 code {
   font-family: "Source Sans Pro", sans-serif;
+}
+
+html, body, #root, .App {
+  min-height: 100vh
 }
