@@ -30,6 +30,8 @@
   > div:first-child {
     display: flex;
     flex-direction: column;
+    font-family: "Source Sans Pro", sans-serif;
+
     > p {
       line-height: 1.4em;
     }
@@ -128,11 +130,26 @@ $breakpoint-mobile-projectCard: 520px;
   .project-card {
     width: 380px;
   }
+  .project-desc {
+    min-height: 350px;
+
+    .project-technologies {
+      p {
+        background-color: white;
+        font-size: smaller;
+      }
+    }
+  }
+
+  .goToGitHub,
+  .goToLive {
+    padding: 0.2em;
+  }
 }
 $breakpoint-mobile-projectCard: 470px;
 
 @media (max-width: $breakpoint-mobile-projectCard) {
   .project-card {
-    width: 100%;
+    width: 95%;
   }
 }
