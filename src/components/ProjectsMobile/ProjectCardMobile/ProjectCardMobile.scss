@@ -152,4 +152,11 @@ $breakpoint-mobile-projectCard: 470px;
   .project-card {
     width: 95%;
   }
+
+  .goToGitHub,
+  .goToLive {
+    padding: 0.1em;
+    background-color: red;
+  }
+
 }
