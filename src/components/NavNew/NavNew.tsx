@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import logo from "../../assets/profile-img.png";
 import { ProjectType } from "../../../interface";
+import ContactNav from "../ContactNav/ContactNav";
 
 type Props = {
   allProjects: ProjectType[];
@@ -34,18 +35,13 @@ const NavNew: React.FC<Props> = ({ allProjects }) => {
         {/* <img src={logo} /> */}
         <h2>Joan Gerard</h2>
       </div>
-      {/* <div className="bottomnav"> */}
-        {/* <div className="projects-name">
-          {allProjects.map((project, idx) => (
-            <p key={idx}>{project.name}</p>
-          ))}
-        </div> */}
-        <div className="nav-links">
-          <p onClick={goToAbout}>About</p>
-          <p onClick={goToStack}>Stack</p>
-          <p onClick={goToProjects}>Projects</p>
-          <p onClick={goToContact}>Contact</p>
-        </div>
+      <div className="nav-links">
+        <p onClick={goToAbout}>About</p>
+        <p onClick={goToStack}>Stack</p>
+        <p onClick={goToProjects}>Projects</p>
+        {/* <p onClick={goToContact}>Contact</p> */}
+      </div>
+      <ContactNav />
       {/* </div> */}
     </div>
   );

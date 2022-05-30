@@ -57,13 +57,14 @@ function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<ContactCard />} />
+          {/* <Route path="/contact" element={<ContactCard />} /> */}
           <Route
             path="/projects"
             element={<ProjectsMobile allProjects={allProjects} />}
           />
           <Route path="/technologies" element={<TechStack />} />
         </Routes>
+        <Footer />
       </>
     </div>
   );
