@@ -15,5 +15,19 @@
   grid-gap: 6rem;
   // align-items: center;
   // margin: auto;
-  padding: 2em 5em;
+  padding: 1em 5em;
+}
+
+$breakpoint-mobile-projects: 520px;
+
+@media (max-width: $breakpoint-mobile-projects) {
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 0;
+    // align-items: center;
+    // margin: auto;
+    padding: 1em 1em;
+  
+  }
 }

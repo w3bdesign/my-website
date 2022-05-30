@@ -32,7 +32,6 @@
     flex-direction: column;
     > p {
       line-height: 1.4em;
-  
     }
   }
 
@@ -121,4 +120,19 @@
 
 .slick-slider img {
   border-radius: 10px;
+}
+
+$breakpoint-mobile-projectCard: 520px;
+
+@media (max-width: $breakpoint-mobile-projectCard) {
+  .project-card {
+    width: 380px;
+  }
+}
+$breakpoint-mobile-projectCard: 470px;
+
+@media (max-width: $breakpoint-mobile-projectCard) {
+  .project-card {
+    width: 100%;
+  }
 }
