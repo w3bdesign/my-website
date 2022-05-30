@@ -1,5 +1,5 @@
 import React from "react";
-import "./ContactNav.css";
+import "./ContactNav.scss";
 
 const ContactNav = () => {
   return (

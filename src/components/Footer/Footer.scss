@@ -1,0 +1,26 @@
+.Footer {
+  background-color: rgb(245, 245, 245);
+
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  padding: 1em 0;
+}
+
+// $breakpoint-mobile-footer: 450px;
+
+// @media (max-width: $breakpoint-mobile-footer) {
+//   .Footer {
+//     position: sticky;
+//     z-index: 2;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     font-size: small;
+//     padding: 1em 0;
+//   }
+// }

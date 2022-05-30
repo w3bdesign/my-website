@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import logo from "../../assets/profile-img.png";
 import { ProjectType } from "../../../interface";
 import ContactNav from "../ContactNav/ContactNav";
+import { useMediaQuery } from "react-responsive";
 
 type Props = {
   allProjects: ProjectType[];
@@ -29,19 +30,20 @@ const NavNew: React.FC<Props> = ({ allProjects }) => {
     navigate("/technologies");
   };
 
+  const isTablet = useMediaQuery({ maxWidth: 700 });
+
   return (
     <div className="NavNew">
       <div className="logo" onClick={goToLanding}>
-        {/* <img src={logo} /> */}
         <h2>Joan Gerard</h2>
       </div>
       <div className="nav-links">
         <p onClick={goToAbout}>About</p>
         <p onClick={goToStack}>Stack</p>
         <p onClick={goToProjects}>Projects</p>
-        {/* <p onClick={goToContact}>Contact</p> */}
+        {/* <p className="contactLink" onClick={goToContact}>Contact</p> */}
       </div>
-      <ContactNav />
+      {isTablet ? null : <ContactNav />}
       {/* </div> */}
     </div>
   );

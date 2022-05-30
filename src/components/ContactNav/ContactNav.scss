@@ -1,9 +1,4 @@
 .wrapper2 {
-  /* height: 10vh; */
-
-  /* display: flex; */
-  /* justify-content: flex-end; */
-  /* flex-direction: row; */
 }
 
 .menu2 {
@@ -50,32 +45,16 @@
   transition: 0.5s;
 }
 
-/* attempt at showing spans */
+$breakpoint-mobile-nav: 700px;
 
-/* .menu2 li a span {
-    width: 0;
-    height: 60px;
-    left: 40px;
-    padding: 0;
-    position: absolute;
-    overflow: hidden;
-  
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 0.6;
-    white-space: nowrap;
-    line-height: 40px;
-    transition: 0.25s;
-  
-    background: gray
+@media (max-width: $breakpoint-mobile-nav) {
+  .wrapper2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
 
+    .menu2 li {
+      margin: 0 0.5em;
+    }
+  }
 }
-
-.menu2 li a:hover span {
-    width: auto;
-    padding: 0 20px;
-    overflow: visible;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-}   */

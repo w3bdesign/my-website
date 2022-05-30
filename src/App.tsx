@@ -57,7 +57,7 @@ function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
-          {/* <Route path="/contact" element={<ContactCard />} /> */}
+          {/* <Route psath="/contact" element={<ContactCard />} /> */}
           <Route
             path="/projects"
             element={<ProjectsMobile allProjects={allProjects} />}

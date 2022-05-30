@@ -1,5 +1,7 @@
 import React from "react";
+import ContactNav from "../../ContactNav/ContactNav";
 import "./AboutCard.scss";
+import { useMediaQuery } from "react-responsive";
 
 const AboutCard = () => {
   window.addEventListener("scroll", () => {
@@ -21,17 +23,20 @@ const AboutCard = () => {
     }
   };
 
+  const isTablet = useMediaQuery({ maxWidth: 700 });
+
   return (
     <div className="profile-container">
       <div className="profile">
         <div className="profile-image"></div>
+        {isTablet ? <ContactNav /> : null}
         <div>
           <h1>About Joan</h1>
           <h4>Full Stack Developer | Prince2/Agile and CAPM certified</h4>
         </div>
         <p>
-          Born in France, I spent most of my adult life in London, UK. During
-          the first years there, I worked in the catering and hospitality
+          Born in France, I spent most of my professional life in London, UK.
+          During the first years there, I worked in the catering and hospitality
           industry. I have always had a passion for languages. That is why I
           went on to study and get my Bachelors and Masters Degrees in
           Translation and Interpreting.
