@@ -1,5 +1,17 @@
 [
   {
+    "name": "Random User Generator",
+    "description": "In Progress - A REST Countries API with color theme switcher. The user is able to browse all countries on main page, click on a country to get more information, search for a country, filter by continent, and toggle between light and dark themes",
+    "technologies": [
+      "Typescript",
+      "External API",
+      "Sass"
+    ],
+    "githubLink": "https://github.com/joan-gerard/random-user-generator",
+    "liveProjectLink": "",
+    "screenshots": ["/random-user/random1.png", "/random-user/random2.png"]
+  },
+  {
     "name": "Countrypedia",
     "description": "In Progress - A REST Countries API with color theme switcher. The user is able to browse all countries on main page, click on a country to get more information, search for a country, filter by continent, and toggle between light and dark themes",
     "technologies": [
