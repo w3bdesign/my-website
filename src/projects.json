@@ -1,7 +1,7 @@
 [
   {
     "name": "Random User Generator",
-    "description": "In Progress - A REST Countries API with color theme switcher. The user is able to browse all countries on main page, click on a country to get more information, search for a country, filter by continent, and toggle between light and dark themes",
+    "description": "",
     "technologies": [
       "Typescript",
       "External API",
@@ -21,7 +21,7 @@
       "Style Components"
     ],
     "githubLink": "https://github.com/joan-gerard/REST-countries",
-    "liveProjectLink": "http://www.google.com",
+    "liveProjectLink": "",
     "screenshots": ["/rest-countries/rest2.png", "/rest-countries/rest1.png"]
   },
   {
