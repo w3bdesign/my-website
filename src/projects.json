@@ -37,7 +37,7 @@
     "description": "With this app, the user is able to browse all products in a list or grid view, to search for products, to filter by category, and to click on a product to get more information",
     "technologies": ["ReactJS", "Typescript", "External API", "CSS"],
     "githubLink": "https://github.com/joan-gerard/ui-fe-test-assignment",
-    "liveProjectLink": "",
+    "liveProjectLink": "https://joan-gerard.github.io/ubiquity-products-catalogue/",
     "screenshots": [
       "/ubiquity/ubiquity2.png",
       "/ubiquity/ubiquity1.png",
