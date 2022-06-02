@@ -49,8 +49,8 @@ const About = () => {
         </p>
         <p>
           I moved to Stockholm, Sweden, in February 2021, to pursue a career in
-          software development. I completed an intensive 3-month Full Stack JS
-          bootcamp at the School of Applied Technology.
+          software development. I successfully completed an intensive 3-month Full Stack JS
+          bootcamp at the <a href="https://www.salt.dev/">School of Applied Technology</a>
         </p>
         {/* <p>
           As a Full Stack Developer and holder of the Prince2, Prince2 Agile and
