@@ -38,9 +38,16 @@
       &:focus {
         font-weight: bolder;
       }
-    }
-  
 
+      &:hover {
+        // text-decoration: underline;
+        color: #094c66;
+        font-weight: bolder;
+        margin-bottom: 0.2em;
+        padding-bottom: 0.2em;
+        border-bottom: 1px solid #000
+      }
+    }
   }
 }
 
@@ -54,7 +61,6 @@ $breakpoint-mobile-nav: 500px;
 
         font-size: 16px;
       }
-  
     }
   }
 }
