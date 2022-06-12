@@ -1,5 +1,13 @@
 [
   {
+    "name": "Contact List",
+    "description": "First app built with React Native. The user is able to sign up or sign in before being able to view a list of contacts. After clicking on a contact name, the user will navigate to another screen where they will get more information about the selected contact",
+    "technologies": ["React Native", "Expo", "Firebase Auth"],
+    "githubLink": "https://github.com/joan-gerard/react-native-day2",
+    "liveProjectLink": "",
+    "screenshots": ["/contact-list/contact1.png"]
+  },
+  {
     "name": "Random User Generator",
     "description": "On launch and refresh, the app will fetch the data of a single fake profile. The app user is able to amend the first-name and/or last-name",
     "technologies": [
