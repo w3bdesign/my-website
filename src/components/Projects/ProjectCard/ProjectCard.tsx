@@ -32,6 +32,7 @@ const ProjectCard: React.FC<Props> = ({
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
+    lazyload: true
   };
 
   return (
