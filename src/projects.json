@@ -1,9 +1,33 @@
 [
   {
+    "name": "GameUp",
+    "description": "A social media platform to help gamers find coop partners and give/receive tips. Users are able to login/register, write a post, like other users' posts and leave comments. Users are also able to add/replace a profile image",
+    "technologies": [
+      "React",
+      "Typescript",
+      "Apollo Client",
+      "Apollo Server",
+      "GraphQL",
+      "Mongoose",
+      "MongoDB",
+      "JWT Auth"
+    ],
+    "githubLink": "https://github.com/joan-gerard/GameUp",
+    "liveProjectLink": "",
+    "screenshots": [
+      "/gameup/gameup1.png",
+      "/gameup/gameup2.png",
+      "/gameup/gameup3.png",
+      "/gameup/gameup4.png",
+      "/gameup/gameup5.png"
+    ]
+  },
+  {
     "name": "Projectiva",
     "description": "A project management platform. The user is able to create new clients and new projects. For each project, the user is able to add tasks and create a Work Breakdown Structure (WBS). A schedule (Gantt Chart) is created as the user adds more tasks",
     "technologies": [
       "React",
+      "Typescript",
       "Apollo Client",
       "Express-graphql",
       "GraphQL",
