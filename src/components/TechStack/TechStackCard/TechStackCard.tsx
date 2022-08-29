@@ -2,6 +2,9 @@ import React from "react";
 import "./TechStackCard.scss";
 import typescript from "../../../assets/typescript.svg";
 import redux from "../../../assets/redux.svg";
+import apollo from "../../../assets/apollo.svg";
+import graphql from "../../../assets/graphql.svg";
+import svelte from "../../../assets/svelte.svg";
 import express from "../../../assets/express.svg";
 import next from "../../../assets/next.svg";
 import mongo from "../../../assets/mongo.svg";
@@ -29,6 +32,14 @@ const TechStackCard = () => {
           <div className="react">
             <i className="fab fa-react fa-4x"></i>
             <p>ReactJS</p>
+          </div>
+          <div className="apollo">
+            <img src={apollo} height="63px" alt="apollo icon" />
+            <p>Apollo</p>
+          </div>
+          <div className="graphql">
+            <img src={graphql} height="63px" alt="graphql icon" />
+            <p>Graphql</p>
           </div>
           <div className="redux">
             <img src={redux} height="63px" alt="redux icon" />
@@ -69,6 +80,11 @@ const TechStackCard = () => {
             <i className="fab fa-sass fa-4x"></i>
             <p>Sass</p>
           </div>
+          <div className="svelte">
+            <img src={svelte} height="63px" alt="svelte icon" />
+            <p>Svelte</p>
+          </div>
+
         </div>
       </div>
   );
