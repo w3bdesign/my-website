@@ -49,24 +49,14 @@ const About = () => {
         </p>
         <p>
           I moved to Stockholm, Sweden, in February 2021, to pursue a career in
-          software development. I successfully completed an intensive 3-month Full Stack JS
-          bootcamp at the <a href="https://www.salt.dev/">School of Applied Technology</a>
+          software development. I successfully completed an intensive 3-month
+          Full Stack JS bootcamp at the{" "}
+          <a href="https://www.salt.dev/">School of Applied Technology</a>
         </p>
-        {/* <p>
-          As a Full Stack Developer and holder of the Prince2, Prince2 Agile and
-          CAPM certifications, I am suited to fulfil specific roles in your
-          organisation. I possess the solid experience, education and competency
-          needed to work on software development projects.{" "}
-        </p>
-        <p>
-          These certifications, along with my real-life work experience, have
-          provided me with a broad efficiency in the use of Agile, Waterfall and
-          Hybrid methodologies.
-        </p> */}
         <p>
           I like to spend my free time working on projects to learn and practice
           new concepts and technologies. My passions are Technologies | Gaming |
-          Media | Linguistics | Localization | Sustainability.
+          Media | Linguistics | Localization | Sustainability
         </p>
       </div>
     </div>
