@@ -1,5 +1,25 @@
 [
   {
+    "name": "Projectiva",
+    "description": "A project management platform. The user is able to create new clients and new projects. For each project, the user is able to add tasks and create a Work Breakdown Structure (WBS). A schedule (Gantt Chart) is created as the user adds more tasks",
+    "technologies": [
+      "React",
+      "Apollo Client",
+      "Express-graphql",
+      "GraphQL",
+      "Mongoose",
+      "MongoDB"
+    ],
+    "githubLink": "https://github.com/joan-gerard/project-mgt-system",
+    "liveProjectLink": "",
+    "screenshots": [
+      "/projectiva/projectiva1.png",
+      "/projectiva/projectiva2.png",
+      "/projectiva/projectiva3.png",
+      "/projectiva/projectiva4.png"
+    ]
+  },
+  {
     "name": "Contact List",
     "description": "First app built with React Native. The user is able to sign up or sign in before being able to view a list of contacts. After clicking on a contact name, the user will navigate to another screen where they will get more information about the selected contact",
     "technologies": ["React Native", "Expo", "Firebase Auth"],
