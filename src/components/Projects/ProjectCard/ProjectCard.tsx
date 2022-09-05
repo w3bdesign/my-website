@@ -29,7 +29,7 @@ const ProjectCard: React.FC<Props> = ({
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
-    lazyload: false,
+    lazyload: true,
   };
 
   return (
@@ -42,7 +42,7 @@ const ProjectCard: React.FC<Props> = ({
               className="screenshot"
               src={screen}
               alt=""
-              // loading="lazy"
+              loading="lazy"
             />
           ))}
         </Slider>
