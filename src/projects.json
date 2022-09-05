@@ -15,11 +15,11 @@
     "githubLink": "https://github.com/joan-gerard/GameUp",
     "liveProjectLink": "",
     "screenshots": [
-      "/gameup/gameup1.png",
-      "/gameup/gameup2.png",
-      "/gameup/gameup3.png",
-      "/gameup/gameup4.png",
-      "/gameup/gameup5.png"
+      "/gameup/gameup1-min.png",
+      "/gameup/gameup2-min.png",
+      "/gameup/gameup3-min.png",
+      "/gameup/gameup4-min.png",
+      "/gameup/gameup5-min.png"
     ]
   },
   {
@@ -37,10 +37,10 @@
     "githubLink": "https://github.com/joan-gerard/project-mgt-system",
     "liveProjectLink": "",
     "screenshots": [
-      "/projectiva/projectiva1.png",
-      "/projectiva/projectiva2.png",
-      "/projectiva/projectiva3.png",
-      "/projectiva/projectiva4.png"
+      "/projectiva/projectiva1-min.png",
+      "/projectiva/projectiva2-min.png",
+      "/projectiva/projectiva3-min.png",
+      "/projectiva/projectiva4-min.png"
     ]
   },
   {
@@ -49,7 +49,7 @@
     "technologies": ["React Native", "Expo", "Firebase Auth"],
     "githubLink": "https://github.com/joan-gerard/react-native-day2",
     "liveProjectLink": "",
-    "screenshots": ["/contact-list/contact1.png"]
+    "screenshots": ["/contact-list/contact1-min.png"]
   },
   {
     "name": "Random User Generator",
@@ -63,7 +63,7 @@
     ],
     "githubLink": "https://github.com/joan-gerard/random-user-generator",
     "liveProjectLink": "https://joan-gerard.github.io/random-user/",
-    "screenshots": ["/random-user/random1.png", "/random-user/random2.png"]
+    "screenshots": ["/random-user/random1-min.png", "/random-user/random2-min.png"]
   },
   {
     "name": "Countrypedia",
@@ -76,7 +76,7 @@
     ],
     "githubLink": "https://github.com/joan-gerard/REST-countries",
     "liveProjectLink": "",
-    "screenshots": ["/rest-countries/rest2.png", "/rest-countries/rest1.png"]
+    "screenshots": ["/rest-countries/rest2-min.png", "/rest-countries/rest1-min.png"]
   },
   {
     "name": "Volvo Cars",
@@ -84,7 +84,7 @@
     "technologies": ["NextJS", "Typescript", "CSS", "Volvo UI library"],
     "githubLink": "https://github.com/joan-gerard/volvo-frontend-code-test",
     "liveProjectLink": "",
-    "screenshots": ["/volvo-cars/volvo1.png", "/volvo-cars/volvo2.png"]
+    "screenshots": ["/volvo-cars/volvo1-min.png", "/volvo-cars/volvo2-min.png"]
   },
   {
     "name": "Ubiquity",
@@ -100,10 +100,10 @@
     "githubLink": "https://github.com/joan-gerard/ui-fe-test-assignment",
     "liveProjectLink": "https://joan-gerard.github.io/ubiquity-products-catalogue/",
     "screenshots": [
-      "/ubiquity/ubiquity2.png",
-      "/ubiquity/ubiquity1.png",
-      "/ubiquity/ubiquity3.png",
-      "/ubiquity/ubiquity4.png"
+      "/ubiquity/ubiquity2-min.png",
+      "/ubiquity/ubiquity1-min.png",
+      "/ubiquity/ubiquity3-min.png",
+      "/ubiquity/ubiquity4-min.png"
     ]
   }
 ]
