@@ -34,17 +34,19 @@ const ProjectCard: React.FC<Props> = ({
 
   return (
     <div className="project-card">
-      <Slider {...settings}>
-        {screenshots.map((screen, idx) => (
-          <img
-            key={idx}
-            className="screenshot"
-            src={screen}
-            alt=""
-            loading="lazy"
-          />
-        ))}
-      </Slider>
+      <div className="slider-wrapper">
+        <Slider {...settings}>
+          {screenshots.map((screen, idx) => (
+            <img
+              key={idx}
+              className="screenshot"
+              src={screen}
+              alt=""
+              // loading="lazy"
+            />
+          ))}
+        </Slider>
+      </div>
 
       <div className="project-desc">
         <div>
