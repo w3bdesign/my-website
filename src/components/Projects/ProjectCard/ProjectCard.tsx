@@ -4,8 +4,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import loader from "../../../assets/loader-min.png";
-
 type Props = {
   name: string;
   description: string;
@@ -34,30 +32,18 @@ const ProjectCard: React.FC<Props> = ({
     lazyload: false,
   };
 
-  const testFn = () => {
-    setTimeout(() => {
-      setIsLoaded(true);
-    }, 2000);
-  };
-
-  testFn();
-
   return (
     <div className="project-card">
       <Slider {...settings}>
-        {isLoaded ? (
-          screenshots.map((screen, idx) => (
-            <img
-              key={idx}
-              className="screenshot"
-              src={screen}
-              alt=""
-              loading="lazy"
-            />
-          ))
-        ) : (
-          <img src={loader} alt="" />
-        )}
+        {screenshots.map((screen, idx) => (
+          <img
+            key={idx}
+            className="screenshot"
+            src={screen}
+            alt=""
+            loading="lazy"
+          />
+        ))}
       </Slider>
 
       <div className="project-desc">
