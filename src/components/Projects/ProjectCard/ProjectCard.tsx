@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ProjectCard.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+import loader from "../../../assets/loader-min.png";
 
 type Props = {
   name: string;
@@ -21,26 +23,41 @@ const ProjectCard: React.FC<Props> = ({
   liveProjectLink,
   screenshots,
 }) => {
+  const [isLoaded, setIsLoaded] = useState(false);
   var settings = {
-    // autoplay: true,
-    // autoplaySpeed: 2000,
-    // infinite: true,
-
     arrows: false,
     dots: true,
-    speed: 1000,
+    // speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
-    lazyload: true
+    lazyload: false,
   };
+
+  const testFn = () => {
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 2000);
+  };
+
+  testFn();
 
   return (
     <div className="project-card">
       <Slider {...settings}>
-        {screenshots.map((screen, idx) => (
-          <img key={idx} className="screenshot" src={screen} alt="" />
-        ))}
+        {isLoaded ? (
+          screenshots.map((screen, idx) => (
+            <img
+              key={idx}
+              className="screenshot"
+              src={screen}
+              alt=""
+              loading="lazy"
+            />
+          ))
+        ) : (
+          <img src={loader} alt="" />
+        )}
       </Slider>
 
       <div className="project-desc">
